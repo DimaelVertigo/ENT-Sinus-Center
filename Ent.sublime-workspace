@@ -1,0 +1,1552 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ma",
+				"margin"
+			],
+			[
+				"con",
+				"content-8"
+			],
+			[
+				"content",
+				"content-7	(index.html)"
+			],
+			[
+				"pi",
+				"pic2.jpg	w:1600 h:1023"
+			],
+			[
+				"co",
+				"content-2.less"
+			],
+			[
+				"conte",
+				"content-1.less"
+			],
+			[
+				"clear",
+				"clearfix-container	css-clearfix-container"
+			],
+			[
+				"ju",
+				"jumbotron.less"
+			],
+			[
+				"acc",
+				"ac-c	align-content: center;"
+			],
+			[
+				"jc",
+				"jcsa	(Emmet.sublime-settings)"
+			],
+			[
+				"he",
+				"height"
+			],
+			[
+				"log",
+				"logo3.png	w:156 h:41"
+			],
+			[
+				"title__",
+				"title__logo	(index.html)"
+			],
+			[
+				"ada",
+				"adaptive	media-adaptive"
+			],
+			[
+				"tab",
+				"tablet	media-tablet"
+			],
+			[
+				"v",
+				"mvideo.png	w:214 h:87"
+			],
+			[
+				"dis",
+				"display"
+			],
+			[
+				"le",
+				"letter-spacing"
+			],
+			[
+				"lo",
+				"logo2.png	w:186 h:49"
+			],
+			[
+				"pl",
+				"pl3.png	w:1600 h:1074"
+			],
+			[
+				"s",
+				"jquery.li-scroller.1.0.js"
+			],
+			[
+				"tp",
+				"tpl_wrap"
+			],
+			[
+				"su",
+				"support-logo.png	w:105 h:101"
+			],
+			[
+				"de",
+				"deposit.less"
+			],
+			[
+				"depos",
+				"depostit.less"
+			],
+			[
+				"cle",
+				"clear"
+			],
+			[
+				"sta",
+				"stat.jpg	w:1400 h:267"
+			],
+			[
+				"db",
+				"d-b	display: block;"
+			],
+			[
+				"glo",
+				"global-stat.png	w:1400 h:960"
+			],
+			[
+				"por",
+				"pos-r	position: relative;"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"fo",
+				"fonts.less"
+			],
+			[
+				"redi",
+				"redirect-page.less"
+			],
+			[
+				"sign",
+				"signup.less"
+			],
+			[
+				"inne",
+				"inners.less"
+			],
+			[
+				"impo",
+				"@import	@import url(${0});"
+			],
+			[
+				"foo",
+				"footer.less"
+			],
+			[
+				"head",
+				"header.less"
+			],
+			[
+				"res",
+				"reset.less"
+			],
+			[
+				"main",
+				"main.less"
+			],
+			[
+				"ba",
+				"ba	css-background"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"borde",
+				"border-radius"
+			],
+			[
+				"us",
+				"user-navigation.less"
+			],
+			[
+				"imp",
+				"@import	@import url(${0});"
+			],
+			[
+				"box",
+				"box-shadow"
+			],
+			[
+				"bor",
+				"border"
+			],
+			[
+				"ic",
+				"icon11.png	w:202 h:217"
+			],
+			[
+				"p",
+				"p4.png	w:165 h:53"
+			],
+			[
+				"ico",
+				"icon3.png	w:60 h:52"
+			],
+			[
+				"icon1",
+				"icon11.png	w:236 h:236"
+			],
+			[
+				"deco",
+				"decore2.png	w:54 h:20"
+			],
+			[
+				"vis",
+				"visibility"
+			],
+			[
+				"tal",
+				"table-cell"
+			],
+			[
+				"ab",
+				"aboutus"
+			],
+			[
+				"bord",
+				"border-radius"
+			],
+			[
+				"out",
+				"outline"
+			],
+			[
+				"ban",
+				"banner-wrap.jpg	w:1200 h:773"
+			],
+			[
+				"icon",
+				"icon14.png	w:114 h:114"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"3",
+				"trf-t3	transform: translate3d(${1:tx}, ${2:ty}, ${3:tz});"
+			],
+			[
+				"mar",
+				"mark2.png	w:52 h:52"
+			],
+			[
+				"ho",
+				"hover	css-hover"
+			],
+			[
+				"j",
+				"banner.jpg	w:917 h:601"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "less/custom.less",
+			"settings":
+			{
+				"buffer_size": 3098,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n	<meta charset=\"UTF-8\">\n	<title>ENT & Sinus Center</title>\n	<link rel=\"stylesheet\" href=\"style.css\"></head>\n<body>\n	<div class=\"container container--light\">\n		<div class=\"wrapper\">\n			<header class=\"header\">\n				<a href=\"#\" class=\"header__logo\"></a>\n				<nav class=\"navigation\">\n					<ul>\n						<li class=\"navigation__item\">\n							<a href=\"\" class=\"navigation__link\">benifits</a>\n						</li>\n						<li class=\"navigation__item\">\n							<a href=\"\" class=\"navigation__link\">how it work</a>\n						</li>\n						<li class=\"navigation__item\">\n							<a href=\"\" class=\"navigation__link\">estimonials</a>\n						</li>\n						<li class=\"navigation__item\">\n							<a href=\"\" class=\"navigation__link\">schedule appointment</a>\n						</li>\n						<li class=\"navigation__item\">\n							<a href=\"\" class=\"navigation__btn\">take the test</a>\n						</li>\n					</ul>\n				</nav>\n			</header>\n		</div>\n	</div>\n	<!-- container -->\n	<div class=\"container\">\n		<div class=\"jumbotron\">\n			<div class=\"wrapper jumborton__wrappper\">\n				<div class=\"jumbotron__texts\">\n					<p class=\"jumbotron__img\"></p>\n					<p class=\"jumbotron__text-1\">Balloon Sinusplasty</p>\n					<p class=\"jumbotron__text-2\">\n						Solve your long term sinus\n							problems in less than\n							45 minutes!\n					</p>\n					<p class=\"jumbotron__text-3\">\n						The breakthrough treatment for your sinusitis\n							that is safe fast and Effective!\n					</p>\n					<div class=\"line line--jumbotron\"></div>\n					<ul class=\"jumborton__list\">\n						<li class=\"jumbotron__list-item\">\n							<span class=\"jumbotron__list-item-text\">Relieve Sinus Headaches</span>\n						</li>\n						<li class=\"jumbotron__list-item\">\n							<span class=\"jumbotron__list-item-text\">Alleviate Facial Pain and Pressure</span>\n						</li>\n						<li class=\"jumbotron__list-item\">\n							<span class=\"jumbotron__list-item-text\">improved sleep and less antibiotic use</span>\n						</li>\n						<li class=\"jumbotron__list-item\">\n							<span class=\"jumbotron__list-item-text\">improve nasal congestions</span>\n						</li>\n						<li class=\"jumbotron__list-item\">\n							<span class=\"jumbotron__list-item-text\">Convenient, Comfortable Office Procedure</span>\n						</li>\n						<li class=\"jumbotron__list-item\">\n							<span class=\"jumbotron__list-item-text\">Quick Recovery Duration</span>\n						</li>\n						<li class=\"jumbotron__list-item\">\n							<span class=\"jumbotron__list-item-text\">Instant, Lasting Relief</span>\n						</li>\n					</ul>\n				</div>\n			</div>\n		</div>\n	</div>\n	<div class=\"container container--yellow\">\n		<div class=\"content content-1\">\n			<p class=\"description-btn description-btn--dark\">Check your candidacy</p>\n			<a href=\"#\" class=\"btn btn--content-1 btn--white\">take the test</a>\n		</div>\n	</div>\n	<div class=\"container\">\n		<div class=\"content content-2\">\n			<div class=\"wrapper\">\n				<h2 class=\"title title--white\">What is better and why</h2>\n				<p class=\"description description--content-2\">\n					Both are effective in delivering significant,\n							lasting improvement in sinusitis symptoms.\n				</p>\n				<div class=\"content-2__plans\">\n					<div class=\"content-2__plan content-2__plan--red\"> <i class=\"content-2__plans-icon content-2__plans-icon--red\"></i>\n						<p class=\"content-2__plans-text-1 content-2__plans-text-1--red\">Comparing Balloon<br> Sinus Dilation</p>\n						<p class=\"content-2__plans-text-2\">general anesthesia</p>\n						<ul class=\"content-2__plans-list\">\n							<li class=\"content-2__plans-list-element\">Operation room procedure</li>\n							<li class=\"content-2__plans-list-element\"><span class=\"content-2__text-3 content-2__text-3--red\">1-2</span> hours procedure</li>\n							<li class=\"content-2__plans-list-element\"><span class=\"content-2__text-3 content-2__text-3--red\">1-4</span> weeks</li>\n							<li class=\"content-2__plans-list-element\">Small balloons gently reshape anatomy</li>\n						</ul>\n					</div>\n					<div class=\"content-2__plan content-2__plan--green\"> <i class=\"content-2__plans-icon content-2__plans-icon--green\"></i>\n						<p class=\"content-2__plans-text-1 content-2__plans-text-1--green\">Comparing Balloon<br> Sinus Dilation</p>\n						<p class=\"content-2__plans-text-2\">general anesthesia</p>\n						<ul class=\"content-2__plans-list\">\n							<li class=\"content-2__plans-list-element\">Operation room procedure</li>\n							<li class=\"content-2__plans-list-element\">1-2 hours procedure</li>\n							<li class=\"content-2__plans-list-element\">1-4 weeks</li>\n							<li class=\"content-2__plans-list-element\">Small balloons gently reshape anatomy</li>\n						</ul>\n					</div>\n				</div><!-- content-2__plans -->\n				<div class=\"description description-btn description-btn--white\">\n					Check your eligibility today with our test:\n				</div>\n				<a href=\"#\" class=\"btn btn--content-2\">take the test</a>\n			</div><!-- wrapper -->\n		</div><!-- content -->\n	</div><!-- container -->\n\n	<div class=\"container\">\n		<div class=\"content content-3\">\n			<div class=\"content-3__left\">\n				<div class=\"content-3__tabs-area\">\n					<h2 class=\"title title--white content-3__title\">how it work</h2>\n					<div class=\"line line--jumbotron line--content-3\"></div>\n					<ul class=\"content-3__tabs\">\n						<li class=\"content-3__tab\">\n							<p class=\"content-3__tab-trigger\">What is Hipe Tycoon?</p>\n							<p class=\"content-3__hidden-text\">\n								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, nostrum, ullam, minus, velit itaque sint quos ipsum quibusdam id accusantium reprehenderit doloremque soluta! Earum, animi architecto similique odio? Est, sapiente.\n							</p>\n						</li>\n						<li class=\"content-3__tab\">\n							<p class=\"content-3__tab-trigger\">Inflate Balloon Across Ostium</p>\n							<p class=\"content-3__hidden-text\">\n								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, nostrum, ullam, minus, velit itaque sint quos ipsum quibusdam id accusantium reprehenderit doloremque soluta! Earum, animi architecto similique odio? Est, sapiente.\n							</p>\n						</li>\n						<li class=\"content-3__tab\">\n							<p class=\"content-3__tab-trigger\">Remove Balloon and Irrigate Sinus</p>\n							<p class=\"content-3__hidden-text\">\n								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, nostrum, ullam, minus, velit itaque sint quos ipsum quibusdam id accusantium reprehenderit doloremque soluta! Earum, animi architecto similique odio? Est, sapiente.\n							</p>\n						</li>\n						<li class=\"content-3__tab\">\n							<p class=\"content-3__tab-trigger\">Remove System</p>\n							<p class=\"content-3__hidden-text\">\n								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, nostrum, ullam, minus, velit itaque sint quos ipsum quibusdam id accusantium reprehenderit doloremque soluta! Earum, animi architecto similique odio? Est, sapiente.\n							</p>\n						</li>\n					</ul>\n				</div>\n			</div>\n			<div class=\"content-3__right\">\n				<div class=\"content-3__video\"></div>\n			</div>\n		</div>\n	</div>\n	\n	<div class=\"container container--yellow\">\n		<div class=\"content content-4\">\n			<p class=\"description-btn description-btn--dark\">Check your eligibility today with our test:</p>\n			<a href=\"#\" class=\"btn btn--content-4 btn--white\">take the test</a>\n		</div>\n	</div>\n	\n	<div class=\"container container--gray\">\n		<div class=\"content content-5\">\n			<div class=\"wrapper\">\n\n				<h2 class=\"title title--dark title--line\"><span class=\"title__hightlight title__hightlight--yellow\">390,000</span> others trust the procedure</h2>\n				<p class=\"description description--italic description--content-5\">To date, Balloon sinuplasty has helped over 390,000 sinus patients, dilating over 1.5million sinus passages. Here is what they have to soy:</p>\n				<div class=\"videos\">\n					<div class=\"videos__item\">\n						<div class=\"videos__frame\"></div>\n						<div class=\"videos__description\">\n							<span class=\"videos__description-name\">Cynthia </span><span class=\"videos__description-from\">North Carolina, USA</span>\n						</div>\n					</div>\n					<div class=\"videos__item\">\n						<div class=\"videos__frame\"></div>\n						<div class=\"videos__description\">\n							<span class=\"videos__description-name\">Karen </span><span class=\"videos__description-from\">North Carolina, USA</span>\n						</div>\n					</div>\n				</div><!-- videos -->\n				<div class=\"videos\">\n					<div class=\"videos__item\">\n						<div class=\"videos__frame\"></div>\n						<div class=\"videos__description\">\n							<span class=\"videos__description-name\">Mary Ann </span><span class=\"videos__description-from\">North Carolina, USA</span>\n						</div>\n					</div>\n					<div class=\"videos__item\">\n						<div class=\"videos__frame\"></div>\n						<div class=\"videos__description\">\n							<span class=\"videos__description-name\">Vernon </span><span class=\"videos__description-from\">North Carolina, USA</span>\n						</div>\n					</div>\n				</div><!-- videos -->\n\n			</div><!-- wrapper -->\n		</div><!-- content -->\n	</div><!-- container -->\n	\n	<div class=\"container container--white\">\n		<div class=\"content content-6\">\n			<div class=\"wrapper\">\n\n				<h2 class=\"title title--dark title--line\">Are you a candidate for the procedure?</h2>\n				<p class=\"description description--italic\"> Consider how severe the problem is when you experience it and how frequently it happens, please rate each item below on how “bad” it is by ticking the radio button that corresponds with you feel.</p>\n\n			</div><!-- wrapper -->\n		</div><!-- content -->\n	</div><!-- container -->\n\n	<div class=\"container container--gray\">\n		<div class=\"content content-7\">\n			<div class=\"wrapper\">\n				<p class=\"description description--italic\">Nothing on this site should be considered medical advice. The score evaluation is to be used as a guide and not a physician's diagnosis. Treatment to be determined by doctor upon appointment.</p>\n				<a href=\"#\" class=\"btn btn--red\">Please finish test</a>\n			</div><!-- content -->\n		</div><!-- content -->\n	</div><!-- container -->\n\n	<div class=\"container\">\n		<div class=\"content content-8\">\n			<div class=\"wrapper\">\n\n				<h2 class=\"title title--white\">Contact Our Doctors today</h2>\n				<div class=\"people\">\n					<div class=\"people__item\">\n						<div class=\"people__pic\"><img src=\"img/people1.jpg\"  alt=\"\"></div>\n						<div class=\"people__text\">\n							<div class=\"title title--small\">Dr. Henry Nguyen</div>\n							<div class=\"line line--jumbotron line--content-8\"></div>\n							<div class=\"people__info\">\n								Dr. Nguyen is board certified in Otolaryngology - Head and Neck Surgery. He has been in practice since 1999. Dr. Nguyen has as special interests in the medical and surgical treatment of patients with difficult chronic sinus diseases and nasal polyps, , head and neck surgery including thyroid and parathyroid surgery, and the medical and surgical of obstructive sleep apnea. He is committed to remain on the forefront of technological advances in endoscopic surgery to improve the safety and precision of his procedures.\n							</div>\n						</div>\n					</div>\n					<div class=\"people__item\">\n						<div class=\"people__pic\"><img src=\"img/people2.jpg\"  alt=\"\"></div>\n						<div class=\"people__text\">\n							<div class=\"title title--small\">Dr. Deborshi Roy</div>\n							<div class=\"line line--jumbotron line--content-8\"></div>\n							<div class=\"people__info\">Dr. Roy is board-certified in both Otolaryngology and Facial Plastic & Reconstructive Surgery. Dr. Roy sees all patients with ear, nose and throat disorders, including children. He has a special interest in nasal and sinus surgery, as well as facial plastic surgery. Dr. Roy uses the most innovative techniques and technology to perform procedures in the office as well as the operating room, including Balloon Sinuplasty.</div>\n						</div>\n					</div>\n				</div><!-- people -->\n				\n				<i class=\"content-8__icon\"></i>\n				<div class=\"contact-form\">\n					<form action=\"\">\n						<input type=\"text\" class=\"contact-form__input contact-form__input--text\" placeholder=\"Your name*\">		\n						<input type=\"tel\" class=\"contact-form__input contact-form__input--tel\" placeholder=\"Phone number*\">		\n						<input type=\"email\" class=\"contact-form__input contact-form__input--email\" placeholder=\"E-mail adress*\">				\n						<button type=\"submit\" class=\"btn btn--yellow btn--contact-form\">get more info</button>\n					</form>\n				</div><!-- contact-form -->\n\n			</div><!-- wrapper -->	\n		</div><!-- content -->	\n	</div><!-- container -->\n\n	<footer class=\"footer\">\n		<div class=\"wrapper\">\n			<div class=\"footer__colums\">\n				<div class=\"footer__item\">\n					<div class=\"title title--small\">ENT & Sainus Center</div>\n					<div class=\"line line--content-8\"></div>\n					<p class=\"footer__text\">\n						8241 Rochester Avenue, Suite 130 <br>\n						Rancho Cucamonga, CA 91730-0713 <br>\n						<span class=\"yellow\">(909) 466-8400</span> <br>\n						<span class=\"yellow\">(909) 466-8400</span> (fax) <br>\n						<a href=\"http://www.entsinus.net/\" class=\"link\" target=\"_blank\">www.entsinuscenter.com</a>\n					</p>	\n				</div>\n				<div class=\"footer__item\">\n					<div class=\"title title--small\">ENT & Sainus Center</div>\n					<div class=\"line line--content-8\"></div>\n					<p class=\"footer__text\">\n						8241 Rochester Avenue, Suite 130 <br>\n						Rancho Cucamonga, CA 91730-0713 <br>\n						<span class=\"yellow\">(909) 466-8400</span> <br>\n						<span class=\"yellow\">(909) 466-8400</span> (fax) <br>\n						<a href=\"http://www.entsinus.net/\" class=\"link\" target=\"_blank\">www.entsinuscenter.com</a>\n					</p>	\n				</div>\n				<div class=\"footer__item\">\n					<div class=\"title title--small\">ENT & Sainus Center</div>\n					<div class=\"line line--content-8\"></div>\n					<p class=\"footer__text\">\n						Monday - Friday: <span class=\"yellow\">8:00 AM - 5:00 PM</span><br>\n						Saturday - Sunday: <span class=\"yellow\">Closed</span>\n					</p>	\n				</div>\n			</div>\n			<div class=\"footer__bottom\">\n				<p class=\"footer__copyright\"></p>\n				heartbeat.ua\n			</div>\n		</div>\n	</footer>\n\n	<script src=\"http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.js\"></script>\n	<script src=\"js/scripts.js\"></script>\n\n</body>\n</html>\n",
+			"file": "index.html",
+			"file_size": 13943,
+			"file_write_time": 130785949980000000,
+			"settings":
+			{
+				"buffer_size": 14036,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "less/footer.less",
+			"settings":
+			{
+				"buffer_size": 506,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 147.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"hype",
+				"Hyperlink Helper: Lookup with Google & Link"
+			],
+			[
+				"rei",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"comp",
+				"Format CSS: Compact"
+			],
+			[
+				"exp",
+				"Format CSS: Expanded"
+			],
+			[
+				"js",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"snippe",
+				"Snippet: markup"
+			],
+			[
+				"sma",
+				"Snippet: smartphone"
+			],
+			[
+				"iphon",
+				"Snippet: iphone 4"
+			],
+			[
+				"ipho",
+				"Snippet: iphone 4"
+			],
+			[
+				"desk",
+				"Snippet: desktop & laptop"
+			],
+			[
+				"iph",
+				"Snippet: iphone 4"
+			],
+			[
+				"lands",
+				"Snippet: landscape"
+			],
+			[
+				"ipa",
+				"Snippet: ipad"
+			],
+			[
+				"iphone",
+				"Snippet: iphone 4"
+			],
+			[
+				"smart",
+				"Snippet: smartphone"
+			],
+			[
+				"comb",
+				"Run CSScomb"
+			],
+			[
+				"smar",
+				"Snippet: smartphone"
+			],
+			[
+				"ipad l",
+				"Snippet: ipad landscape"
+			],
+			[
+				"desktop",
+				"Snippet: desktop & laptop"
+			],
+			[
+				"ipad",
+				"Snippet: ipad"
+			],
+			[
+				"reti",
+				"Snippet: retina"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"hyper",
+				"Hyperlink Helper: Wrap Word / Selection as Link"
+			],
+			[
+				"enable",
+				"Package Control: Enable Package"
+			],
+			[
+				"rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"enab",
+				"Package Control: Enable Package"
+			],
+			[
+				"pack",
+				"Package Control: Remove Package"
+			],
+			[
+				"expa",
+				"Format CSS: Expanded"
+			],
+			[
+				"comm",
+				"Snippet: Comment - Single-line block comment"
+			],
+			[
+				"cssco",
+				"Run CSScomb"
+			],
+			[
+				"compa",
+				"Format CSS: Compact"
+			],
+			[
+				"forma",
+				"Format CSS: Compact (Break Selectors)"
+			],
+			[
+				"css",
+				"Snippet: css-before"
+			],
+			[
+				"hy",
+				"Hyperlink Helper: Lookup with Google & Link"
+			],
+			[
+				"less",
+				"Set Syntax: LESS"
+			],
+			[
+				"i",
+				"Package Control: Install Package"
+			],
+			[
+				"cssc",
+				"Run CSScomb"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Remove Package"
+			],
+			[
+				"color",
+				"Colorsublime: Install Theme"
+			],
+			[
+				"",
+				"Colorsublime: Browse Themes"
+			],
+			[
+				"theme",
+				"Colorsublime: Browse Themes"
+			],
+			[
+				"colo",
+				"Colorsublime: Install Theme"
+			],
+			[
+				"moni",
+				"SFTP: Monitor File (Upload on External Save)"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"brow",
+				"Preferences: Browse Packages"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"ht",
+				"Set Syntax: HTML"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			]
+		],
+		"width": 575.0
+	},
+	"console":
+	{
+		"height": 125.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Applications/MAMP/htdocs/Ent",
+		"/Applications/MAMP/htdocs/Ent/less"
+	],
+	"file_history":
+	[
+		"/Applications/MAMP/htdocs/Ent/less/content-8.less",
+		"/Applications/MAMP/htdocs/Ent/js/scripts.js",
+		"/Users/dorosh/Library/Application Support/com.evernote.Evernote/accounts/www.evernote.com/27172961/external-edits/0EC35CBC-435C-4963-94F7-C432C9F3BCA5/validation-form.js",
+		"/Applications/MAMP/htdocs/Ent/less/content-7.less",
+		"/Applications/MAMP/htdocs/Ent/less/content-6.less",
+		"/Users/dorosh/Library/Application Support/Sublime Text 3/Packages/User/Emmet.sublime-settings",
+		"/Applications/MAMP/htdocs/Ent/index.html",
+		"/Applications/MAMP/htdocs/Ent/less/main.less",
+		"/Applications/MAMP/htdocs/Ent/less/content-5.less",
+		"/Applications/MAMP/htdocs/Ent/less/content-4.less",
+		"/Applications/MAMP/htdocs/Ent/less/content-1.less",
+		"/Applications/MAMP/htdocs/Ent/less/content-3.less",
+		"/Applications/MAMP/htdocs/Ent/style.css",
+		"/Users/dorosh/Library/Application Support/com.evernote.Evernote/accounts/www.evernote.com/27172961/external-edits/7B9DE260-F374-47E7-BC6D-AD60F2F22541/scripts.js",
+		"/Users/dorosh/Library/Application Support/com.evernote.Evernote/accounts/www.evernote.com/27172961/external-edits/929C644A-3E46-4CFF-A282-4755FCF8D5AD/faq.less",
+		"/Users/dorosh/Library/Application Support/com.evernote.Evernote/accounts/www.evernote.com/27172961/external-edits/78E20AC9-2A7D-4A9A-8727-CD0D87DAB6B1/scripts.js",
+		"/Users/dorosh/Library/Application Support/com.evernote.Evernote/accounts/www.evernote.com/27172961/external-edits/DC45ADB2-519E-4F95-9362-CCDB0AECFA5F/faq.tpl",
+		"/var/folders/cz/868h90kn16j44rd5815021xr0000gn/T/com.evernote.Evernote/WebKitDnD.tustsH/faq.tpl",
+		"/var/folders/cz/868h90kn16j44rd5815021xr0000gn/T/com.evernote.Evernote/WebKitDnD.NeRBEL/examle.js",
+		"/Users/dorosh/Library/Application Support/com.evernote.Evernote/accounts/www.evernote.com/27172961/external-edits/8AA7D7D8-6CF8-4121-8D16-8CE74F996474/faq.tpl",
+		"/Users/dorosh/Library/Application Support/com.evernote.Evernote/accounts/www.evernote.com/27172961/external-edits/1BA91FB0-5475-4CBB-8E81-5FC314BB36AB/examle.js",
+		"/Applications/MAMP/htdocs/opesvista.com/tmpl/deposit.altergold.confirm.tpl",
+		"/Applications/MAMP/htdocs/opesvista.com/tmpl/deposit.anonygold.confirm.tpl",
+		"/Users/dorosh/Library/Application Support/com.evernote.Evernote/accounts/www.evernote.com/27172961/external-edits/067AF348-60D0-4DB0-AB78-A146614C7C31/examle.js",
+		"/var/folders/cz/868h90kn16j44rd5815021xr0000gn/T/com.evernote.Evernote/WebKitDnD.fhMGgP/faq.tpl",
+		"/Applications/MAMP/htdocs/opesvista.com/tmpl/deposit_list.tpl",
+		"/Applications/MAMP/htdocs/Ent/less/footer.less",
+		"/Applications/MAMP/htdocs/Ent/less/content-2.less",
+		"/Applications/MAMP/htdocs/Ent/less/jumbotron.less",
+		"/Applications/MAMP/htdocs/Ent/less/fonts.less",
+		"/Applications/MAMP/htdocs/Ent/less/variables.less",
+		"/private/var/folders/cz/868h90kn16j44rd5815021xr0000gn/T/.entp.L5Joqz/0/stylesheet.css",
+		"/Users/dorosh/Library/Application Support/Sublime Text 3/Packages/User/css-clearfix-container.sublime-snippet",
+		"/Applications/MAMP/htdocs/Ent/less/header.less",
+		"/private/var/folders/cz/868h90kn16j44rd5815021xr0000gn/T/.entp.HugGIY/0/stylesheet.css",
+		"/private/var/folders/cz/868h90kn16j44rd5815021xr0000gn/T/.entp.DCrKS4/0/stylesheet.css",
+		"/private/var/folders/cz/868h90kn16j44rd5815021xr0000gn/T/.entp.WDMelY/0/stylesheet.css",
+		"/private/var/folders/cz/868h90kn16j44rd5815021xr0000gn/T/.entp.3T8oDX/0/stylesheet.css",
+		"/private/var/folders/cz/868h90kn16j44rd5815021xr0000gn/T/.entp.Olucky/0/stylesheet.css",
+		"/Applications/MAMP/htdocs/Ent/config.codekit",
+		"/Applications/MAMP/htdocs/Vost/style.css",
+		"/Applications/MAMP/htdocs/Vost/less/content-block-6.less",
+		"/Applications/MAMP/htdocs/Vost/less/content-block-10.less",
+		"/Applications/MAMP/htdocs/Vost/less/content-block-2.less",
+		"/Applications/MAMP/htdocs/Vost/less/custom.less",
+		"/Applications/MAMP/htdocs/Vost/index.html",
+		"/Users/dorosh/Library/Application Support/Sublime Text 3/Packages/Emmet/Emmet.sublime-settings",
+		"/Applications/MAMP/htdocs/Vost/js/scripts.js",
+		"/Applications/MAMP/htdocs/Vost/less/header.less",
+		"/Applications/MAMP/htdocs/Vost/less/footer.less",
+		"/Applications/MAMP/htdocs/Vost/less/content-block-1.less",
+		"/Applications/MAMP/htdocs/Vost/less/variables.less",
+		"/Applications/MAMP/htdocs/Vost/less/jumbotron.less",
+		"/Applications/MAMP/htdocs/Vost/less/content-block-8.less",
+		"/Applications/MAMP/htdocs/Vost/less/content-block-7.less",
+		"/Applications/MAMP/htdocs/Vost/less/content-block-9.less",
+		"/Applications/MAMP/htdocs/Vost/less/content-block-5.less",
+		"/Applications/MAMP/htdocs/Vost/less/content-block-4.less",
+		"/Applications/MAMP/htdocs/Vost/less/content-block-3.less",
+		"/Users/dorosh/Library/Application Support/Sublime Text 3/Packages/User/media-adaptive.sublime-snippet",
+		"/Users/dorosh/Library/Application Support/Sublime Text 3/Packages/User/retina.sublime-snippet",
+		"/Users/dorosh/Library/Application Support/Sublime Text 3/Packages/User/css-media.sublime-snippet",
+		"/Users/dorosh/Library/Application Support/Sublime Text 3/Packages/User/media-smartphone.sublime-snippet",
+		"/Users/dorosh/Library/Application Support/Sublime Text 3/Packages/User/media-desktop.sublime-snippet",
+		"/Users/dorosh/Library/Application Support/Sublime Text 3/Packages/User/media-tablet.sublime-snippet",
+		"/Users/dorosh/Library/Application Support/Sublime Text 3/Packages/User/media-mobile.sublime-snippet",
+		"/Users/dorosh/Library/Application Support/Sublime Text 3/Packages/User/media-mobile",
+		"/Users/dorosh/Library/Application Support/Sublime Text 3/Packages/User/mark-css.sublime-macro",
+		"/Applications/MAMP/htdocs/Vost/less/fonts.less",
+		"/Applications/MAMP/htdocs/Vost/less/main.less",
+		"/Users/dorosh/Library/Application Support/com.evernote.Evernote/accounts/www.evernote.com/27172961/external-edits/ECAF5684-636A-407A-A9AB-1F31E8E80512/example.css",
+		"/Applications/MAMP/htdocs/Vost/less/content-block-8",
+		"/Users/dorosh/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/dorosh/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/dorosh/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Applications/MAMP/htdocs/Vost/vost.sublime-project",
+		"/Applications/MAMP/htdocs/Vost/vost.sublime-workspace",
+		"/Applications/MAMP/htdocs/Vost/less/cb-5.less",
+		"/Applications/MAMP/htdocs/Vost/less/cb-4.less",
+		"/Applications/MAMP/htdocs/Vost/less/cb-3.less",
+		"/Applications/MAMP/htdocs/Vost/less/cb-2.less",
+		"/Applications/MAMP/htdocs/Vost/less/cb-1.less",
+		"/Applications/MAMP/htdocs/Vost/config.codekit",
+		"/Applications/MAMP/htdocs/Vost/js/jquery.parallax.js",
+		"/Applications/MAMP/htdocs/Vost/js/jquery.cycle.all.js",
+		"/Applications/MAMP/htdocs/Vost/fonts/proximanova-reg-webfont.woff2",
+		"/Applications/MAMP/htdocs/Vost/fonts/proximanova-reg-webfont.woff",
+		"/Applications/MAMP/htdocs/Vost/fonts/proximanova-reg-webfont.svg",
+		"/Applications/MAMP/htdocs/Vost/fonts/proximanova-bold-webfont.woff",
+		"/Applications/MAMP/htdocs/Vost/less/personal.less",
+		"/Applications/MAMP/htdocs/Vost/less/features.less",
+		"/Applications/MAMP/htdocs/opesvista.com/js/scripts.js",
+		"/Users/dorosh/Library/Application Support/com.evernote.Evernote/accounts/www.evernote.com/27172961/external-edits/9950E2BE-F59F-4DEC-87FC-0C31682427A6/jquery.parallax.css",
+		"/Users/dorosh/Library/Application Support/com.evernote.Evernote/accounts/www.evernote.com/27172961/external-edits/DB439D7C-65E7-48A6-8BE6-8AB46BD06B6D/jparallax-master.js",
+		"/private/var/folders/cz/868h90kn16j44rd5815021xr0000gn/T/.entp.9AIslI/0/stylesheet.css",
+		"/private/var/folders/cz/868h90kn16j44rd5815021xr0000gn/T/.entp.ZV0uLI/0/stylesheet.css",
+		"/Applications/MAMP/htdocs/Vost/img/svg/i1.svg",
+		"/Users/dorosh/Desktop/Vector Smart Object.svg",
+		"/Applications/MAMP/htdocs/Vost/fonts/font.css",
+		"/Applications/MAMP/htdocs/Vost/less/front-page.less",
+		"/Applications/MAMP/htdocs/Vost/less/reset.less",
+		"/Applications/MAMP/htdocs/css/style.css",
+		"/Applications/MAMP/htdocs/opesvista.com/less/style.less",
+		"/Applications/MAMP/htdocs/opesvista.com/tmpl/home.tpl",
+		"/Applications/MAMP/htdocs/opesvista.com/tmpl/lang/ru/footer.tpl",
+		"/Applications/MAMP/htdocs/opesvista.com/tmpl/lang/ru/home.tpl",
+		"/Applications/MAMP/htdocs/opesvista.com/less/home.less",
+		"/Applications/MAMP/htdocs/opesvista.com/tmpl/news_box.tpl",
+		"/Users/dorosh/Library/Application Support/com.evernote.Evernote/accounts/www.evernote.com/27172961/external-edits/67779000-B429-44FE-A4DB-BB52C9B2B04C/scroll.css",
+		"/Applications/MAMP/htdocs/opesvista.com/less/main.less",
+		"/Applications/MAMP/htdocs/opesvista.com/js/jquery.li-scroller.1.0.js",
+		"/Applications/MAMP/htdocs/opesvista.com/tmpl/footer.tpl",
+		"/Users/dorosh/Library/Application Support/Sublime Text 3/Packages/Emmet/Default (OSX).sublime-keymap",
+		"/Applications/MAMP/htdocs/opesvista.com/less/header.less",
+		"/Applications/MAMP/htdocs/opesvista.com/tmpl/header.tpl",
+		"/Applications/MAMP/htdocs/opesvista.com/tmpl/signup.tpl",
+		"/Applications/MAMP/htdocs/opesvista.com/less/signup.less",
+		"/Applications/MAMP/htdocs/opesvista.com/tmpl/lang/ru/signup.tpl",
+		"/Applications/MAMP/htdocs/opesvista.com/tmpl/lang/ru/login.tpl",
+		"/Users/dorosh/Library/Application Support/com.evernote.Evernote/accounts/www.evernote.com/27172961/external-edits/73CE4EC9-2EF5-4DB8-A7AF-14F68F91AFB6/scroll.js",
+		"/Applications/MAMP/htdocs/opesvista.com/less/footer.less",
+		"/Applications/MAMP/htdocs/opesvista.com/tmpl/support.tpl",
+		"/Applications/MAMP/htdocs/opesvista.com/less/support.less",
+		"/Applications/MAMP/htdocs/opesvista.com/less/inners.less",
+		"/Applications/MAMP/htdocs/opesvista.com/tmpl/custom/aboutus.tpl",
+		"/Users/dorosh/Library/Application Support/com.evernote.Evernote/accounts/www.evernote.com/27172961/external-edits/02B0618E-EE42-4E37-AA5A-361CA3ADDB6C/Текст поверх линии.css",
+		"/Applications/MAMP/htdocs/opesvista.com/tmpl/header2.tpl",
+		"/Applications/MAMP/htdocs/opesvista.com/tmpl/faq.tpl"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"",
+			"*.less",
+			"*.html",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"(909) 466-8400",
+			"__name",
+			"#fff;",
+			"has-error",
+			"parent()",
+			"*",
+			"@c-main",
+			"contact-form__input",
+			"text",
+			"div",
+			"</div>\n				<div class=\"videos\">",
+			"video",
+			"content-5__",
+			"content-5",
+			"content-5-",
+			"content-5__video-description",
+			"1",
+			"ol",
+			"pages",
+			".line",
+			"line",
+			"ul",
+			"faq-active",
+			"faq-",
+			"cont",
+			"h3",
+			"acc",
+			"cont",
+			"This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit. Sed ut imperdiet nisi. Proin condimentum fermentum nunc. Etiam ",
+			"line",
+			"content-2__text-3",
+			"div",
+			"red",
+			"plan",
+			"before",
+			"clearfix",
+			"div",
+			"jumbotron__list-item",
+			"line",
+			"navigation",
+			"../",
+			"url(",
+			"AnimationName",
+			"18",
+			"-webkit-animation: AnimationName 18s ease infinite;",
+			"// \"html\": {\n		// 	\"abbreviations\": {\n		// 		\"example\": \"<div class='example' title='Custom element example'>\"\n		// 	}\n		// }",
+			"bem",
+			"bem.modifierSeparator",
+			"100%",
+			"rotate(-30deg)",
+			"transform: rotate(-30deg)",
+			"40",
+			"opacity",
+			"fadeIn",
+			"lines",
+			"fadeIn",
+			"logo3",
+			"100",
+			"light.png",
+			"slide__item",
+			"\n					only screen and (-webkit-min-device-pixel-ratio: 2),\n					only screen and (   min--moz-device-pixel-ratio: 2),\n					only screen and (     -o-min-device-pixel-ratio: 2/1),\n					only screen and (        min-device-pixel-ratio: 2),\n					only screen and (                min-resolution: 192dpi),\n					only screen and (                min-resolution: 2dppx)",
+			"8",
+			"\n			only screen and (-webkit-min-device-pixel-ratio: 2),\n			only screen and (   min--moz-device-pixel-ratio: 2),\n			only screen and (     -o-min-device-pixel-ratio: 2/1),\n			only screen and (        min-device-pixel-ratio: 2),\n			only screen and (                min-resolution: 192dpi),\n			only screen and (                min-resolution: 2dppx)",
+			"15",
+			"11",
+			"32",
+			"500",
+			"150",
+			"63",
+			"padding",
+			"center",
+			"space-around",
+			"center",
+			"justify-content",
+			"105",
+			"font: 16px @ff-r;",
+			"16",
+			"/23px",
+			"content-block-1-list-item",
+			"max-width: 470",
+			"content-block-1-list-item",
+			"only screen and (-webkit-min-device-pixel-ratio: 2),\n		only screen and (   min--moz-device-pixel-ratio: 2),\n		only screen and (     -o-min-device-pixel-ratio: 2/1),\n		only screen and (        min-device-pixel-ratio: 2),\n		only screen and (                min-resolution: 192dpi),\n		only screen and (                min-resolution: 2dppx)",
+			"img/point@2x.png",
+			"content-block-1-list-item",
+			"content-block-4-list-1",
+			"max",
+			"style",
+			"2",
+			"297",
+			"content-block-9__",
+			"12",
+			"29",
+			"div",
+			"red",
+			"div",
+			"colums",
+			"870",
+			"nav",
+			"plans_slider",
+			"10",
+			"contact-form-group",
+			"__",
+			"contact-form-group",
+			"height",
+			"png",
+			" no-repeat 11px center",
+			"no-repeat",
+			"contact-form-group__wrapper",
+			"input__",
+			"for=\"\"",
+			"div",
+			"50",
+			"407",
+			"tri",
+			"cb",
+			"content-block",
+			"-2",
+			"div",
+			"cb-4-list-1__item",
+			"list",
+			"personal",
+			"cb-2",
+			"features",
+			"div",
+			"description",
+			"perso",
+			"\n							Размещайте рекламу на рекламных плоскостях в популярных торговых точках.\n						",
+			"Охват"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"animationGradient",
+			"@retina",
+			"content-block",
+			"cb-2",
+			"cb-1",
+			"cb-2",
+			"cb-2\n	<script src=\"js/jquery.cycle.all.js\"></script>\n	<script src=\"js/jquery-ui-1.10.4.custom.min.js\"></script>\n	<script src=\"js/calculator.js\"></script>\n	<script src=\"js/jquery.li-scroller.1.0.js\"></script>\n	<script src=\"js/scripts.js\"></script>",
+			"<script src=\"https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.js\"></script>\n	<script src=\"js/jquery.cycle.all.js\"></script>\n	<script src=\"js/jquery-ui-1.10.4.custom.min.js\"></script>\n	<script src=\"js/calculator.js\"></script>\n	<script src=\"js/jquery.li-scroller.1.0.js\"></script>\n	<script src=\"js/scripts.js\"></script>",
+			"Please confirm your <b>deposit</b>:"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "less/custom.less",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3098,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3054,
+								3054
+							]
+						],
+						"settings":
+						{
+							"bs_sintax": "less",
+							"buffer_scroll_name": "3e2525ac",
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai Custom.tmtheme",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"spell_check": "true",
+							"synced": false,
+							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2517.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 14036,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								13863,
+								13851
+							]
+						],
+						"settings":
+						{
+							"bs_sintax": "html",
+							"buffer_scroll_name": "6bfcaa8c",
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai Custom.tmtheme",
+							"incomplete_sync": null,
+							"is_xml": false,
+							"remote_loading": false,
+							"spell_check": "true",
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 6747.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 2,
+					"file": "less/footer.less",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 506,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								470,
+								470
+							]
+						],
+						"settings":
+						{
+							"bs_sintax": "less",
+							"buffer_scroll_name": "dd7ae946",
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai Custom.tmtheme",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"spell_check": "true",
+							"synced": false,
+							"syntax": "Packages/LESS/LESS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 118.0
+	},
+	"pinned_build_system": "",
+	"project": "Ent.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"8",
+				"less/content-8.less"
+			],
+			[
+				"foo",
+				"less/footer.less"
+			],
+			[
+				"sc",
+				"js/scripts.js"
+			],
+			[
+				"in",
+				"index.html"
+			],
+			[
+				"ma",
+				"less/main.less"
+			],
+			[
+				"7",
+				"less/content-7.less"
+			],
+			[
+				"m",
+				"less/main.less"
+			],
+			[
+				"6",
+				"less/content-6.less"
+			],
+			[
+				"5",
+				"less/content-5.less"
+			],
+			[
+				"cu",
+				"less/custom.less"
+			],
+			[
+				"1",
+				"less/content-1.less"
+			],
+			[
+				"4",
+				"less/content-4.less"
+			],
+			[
+				"sty",
+				"style.css"
+			],
+			[
+				"st",
+				"style.css"
+			],
+			[
+				"3",
+				"less/content-3.less"
+			],
+			[
+				"2",
+				"less/content-2.less"
+			],
+			[
+				"va",
+				"less/variables.less"
+			],
+			[
+				"f",
+				"less/fonts.less"
+			],
+			[
+				"ju",
+				"less/jumbotron.less"
+			],
+			[
+				"v",
+				"less/variables.less"
+			],
+			[
+				"he",
+				"less/header.less"
+			],
+			[
+				"fon",
+				"less/fonts.less"
+			],
+			[
+				"j",
+				"less/jumbotron.less"
+			],
+			[
+				"fo",
+				"less/fonts.less"
+			],
+			[
+				"10",
+				"less/content-block-10.less"
+			],
+			[
+				"cus",
+				"less/custom.less"
+			],
+			[
+				"con",
+				"less/content-block-7.less"
+			],
+			[
+				"9",
+				"less/content-block-9.less"
+			],
+			[
+				"styl",
+				"style.css"
+			],
+			[
+				"ih",
+				"index.html"
+			],
+			[
+				"hea",
+				"less/header.less"
+			],
+			[
+				"co",
+				"less/content-block-10.less"
+			],
+			[
+				"c",
+				"less/content-block-8.less"
+			],
+			[
+				"mai",
+				"less/main.less"
+			],
+			[
+				"cb",
+				"less/cb-1.less"
+			],
+			[
+				"ht",
+				"index.html"
+			],
+			[
+				"pe",
+				"less/personal.less"
+			],
+			[
+				"head",
+				"less/header.less"
+			],
+			[
+				"fe",
+				"less/features.less"
+			],
+			[
+				"font",
+				"less/fonts.less"
+			],
+			[
+				"less",
+				"less/header.less"
+			],
+			[
+				"htm",
+				"index.html"
+			],
+			[
+				"le",
+				"less/header.less"
+			],
+			[
+				"home",
+				"tmpl/lang/ru/home.tpl"
+			],
+			[
+				"news",
+				"tmpl/news_box.tpl"
+			],
+			[
+				"s",
+				"less/style.less"
+			],
+			[
+				"ru/s",
+				"tmpl/lang/ru/signup.tpl"
+			],
+			[
+				"si",
+				"less/signup.less"
+			],
+			[
+				"sign",
+				"tmpl/signup.tpl"
+			],
+			[
+				"ru/si",
+				"tmpl/lang/ru/signup.tpl"
+			],
+			[
+				"ru/logi",
+				"tmpl/lang/ru/login.tpl"
+			],
+			[
+				"ru/ho",
+				"tmpl/lang/ru/home.tpl"
+			],
+			[
+				"ab",
+				"tmpl/custom/aboutus.tpl"
+			],
+			[
+				"sup",
+				"less/support.less"
+			],
+			[
+				"fa",
+				"tmpl/faq.tpl"
+			],
+			[
+				"su",
+				"tmpl/support.tpl"
+			],
+			[
+				"inn",
+				"less/inners.less"
+			],
+			[
+				"faq",
+				"tmpl/faq.tpl"
+			],
+			[
+				"depos",
+				"less/deposit.less"
+			],
+			[
+				"de",
+				"tmpl/deposit.tpl"
+			],
+			[
+				"us",
+				"less/user-page.less"
+			],
+			[
+				"acc",
+				"tmpl/account_main.tpl"
+			],
+			[
+				"na",
+				"less/nav.less"
+			],
+			[
+				"login",
+				"tmpl/login.tpl"
+			],
+			[
+				"footer",
+				"less/footer.less"
+			],
+			[
+				"main",
+				"less/main.less"
+			],
+			[
+				"js",
+				"js/scripts.js"
+			],
+			[
+				"scr",
+				"js/scripts.js"
+			],
+			[
+				"new",
+				"tmpl/news_box.tpl"
+			],
+			[
+				"stat",
+				"tmpl/lang/ru/index_statistic.tpl"
+			],
+			[
+				"inde",
+				"tmpl/index_last_withdrawals.tpl"
+			],
+			[
+				"ind",
+				"tmpl/index_last_deposits.tpl"
+			],
+			[
+				"ca",
+				"js/calculator.js"
+			],
+			[
+				"hom",
+				"less/home.less"
+			],
+			[
+				"css",
+				"css/style.css"
+			],
+			[
+				"res",
+				"less/reset.css"
+			],
+			[
+				"use",
+				"less/user-navigation.less"
+			],
+			[
+				"mix",
+				"less/mixins.less"
+			],
+			[
+				"mi",
+				"less/mixins.less"
+			],
+			[
+				"ho",
+				"tmpl/lang/ru/home.tpl"
+			],
+			[
+				"les",
+				"less/style.less"
+			],
+			[
+				"ru",
+				"tmpl/rules.tpl"
+			],
+			[
+				"sig",
+				"tmpl/signup.tpl"
+			],
+			[
+				"refe",
+				"tmpl/custom/referallinks.tpl"
+			],
+			[
+				"logi",
+				"tmpl/login.tpl"
+			],
+			[
+				"rat",
+				"tmpl/rateus.tpl"
+			],
+			[
+				"index",
+				"tmpl/index_last_withdrawals.tpl"
+			],
+			[
+				"ru/fo",
+				"tmpl/lang/ru/footer.tpl"
+			],
+			[
+				"ru/ac",
+				"tmpl/lang/ru/account_main.tpl"
+			],
+			[
+				"ac",
+				"tmpl/account_main.tpl"
+			],
+			[
+				"ru/hea",
+				"tmpl/lang/ru/header.tpl"
+			],
+			[
+				"ru/home",
+				"tmpl/lang/ru/home.tpl"
+			],
+			[
+				"scri",
+				"js/scripts.js"
+			],
+			[
+				"deposit",
+				"tmpl/deposit.tpl"
+			],
+			[
+				"cha",
+				"tmpl/change_compound.tpl"
+			],
+			[
+				"with",
+				"tmpl/withdrawal.tpl"
+			],
+			[
+				"com",
+				"tmpl/change_compound.tpl"
+			],
+			[
+				"cs",
+				"css/style.css"
+			],
+			[
+				"depo",
+				"tmpl/deposit_history.tpl"
+			],
+			[
+				"ear",
+				"tmpl/earning_history.tpl"
+			],
+			[
+				"deposi",
+				"tmpl/deposit.tpl"
+			],
+			[
+				"abo",
+				"tmpl/custom/aboutus.tpl"
+			],
+			[
+				"comp",
+				"tmpl/change_compound.tpl"
+			],
+			[
+				"ea",
+				"tmpl/earning_history.tpl"
+			],
+			[
+				"edit",
+				"tmpl/edit_account.tpl"
+			],
+			[
+				"suppo",
+				"tmpl/support.tpl"
+			],
+			[
+				"edi",
+				"tmpl/edit_account.tpl"
+			],
+			[
+				"se",
+				"tmpl/security.tpl"
+			],
+			[
+				"abu",
+				"tmpl/custom/aboutus.tpl"
+			],
+			[
+				"deposit.co",
+				"tmpl/deposit.confirm.tpl"
+			],
+			[
+				"supp",
+				"tmpl/support.tpl"
+			],
+			[
+				"support",
+				"tmpl/support.tpl"
+			],
+			[
+				"foot",
+				"tmpl/footer.tpl"
+			],
+			[
+				"cal",
+				"js/calculator.js"
+			],
+			[
+				"ne",
+				"tmpl/news_box.tpl"
+			],
+			[
+				"inves",
+				"tmpl/custom/invest.tpl"
+			],
+			[
+				"inve",
+				"tmpl/lang/ru/custom/invest.tpl"
+			],
+			[
+				"red",
+				"tmpl/login_redirect.tpl"
+			],
+			[
+				"actio",
+				"tmpl/lang/ru/custom/actions.tpl"
+			],
+			[
+				"acti",
+				"tmpl/custom/actions.tpl"
+			],
+			[
+				"ana",
+				"tmpl/custom/analitic.tpl"
+			],
+			[
+				"d",
+				"tmpl/deposit.tpl"
+			],
+			[
+				"anal",
+				"tmpl/custom/analitic.tpl"
+			],
+			[
+				"refer",
+				"tmpl/referal.links.tpl"
+			],
+			[
+				"acco",
+				"tmpl/account_main.tpl"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"/Applications/MAMP/htdocs/Vost/vost.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 197.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

@@ -1,0 +1,88 @@
+.jumbotron {
+	background: url(img/jumbotron.jpg) no-repeat left top;
+	background-size: cover;
+	position: relative;
+	min-height: 874px;
+	padding-top: 90px;
+	@media @desktop {
+		padding: 90px 0;
+	}
+	&__wrapper {
+		height: 874px;
+		overflow: visible;
+		position: relative;
+	}
+	&__img {
+		position: absolute;
+		background: url(img/pic1.png) no-repeat right bottom;
+		bottom: 0;
+		right: -116px;
+		width: 823px;
+		height: 736px;
+		@media @mobile {
+			background-size: 50%; 
+			right: 50px;
+		}
+		@media @smartphone {
+			background-size: 50%;
+			right: 50px;
+		}
+		@media @tablet {
+			background-size: 50%;
+			right: 50px;
+		}
+		@media @desktop {
+			background-size: 100%;
+			bottom: -90px;
+		}	
+	}
+	&__texts {
+		float: left;
+	}
+	&__text-1 {
+		color: @yellow-text;
+		font: 48px @prox-r;
+		text-transform: uppercase;
+		@media @desktop {
+			font: 28px/1px @prox-r;
+		}
+	}
+	&__text-2 {
+		margin-top: 32px;
+		color: #fff;
+		font: 64px @libre-b;
+		@media @desktop {
+			font: 44px/52px @libre-b;
+		}
+	}
+	&__text-3 {
+		margin-top: 15px;
+		color: #fff;
+		font: 42px @prox-r;
+		@media @desktop {
+			font: 22px/29px @prox-r;
+		}
+	}
+	&__list-item {
+		position: relative;
+		display: flex;
+		align-items: center;
+		&::before {
+		    content: '';
+		    display: block;
+		    background: url(img/i1.png) no-repeat;
+		    width: 39px;
+		    height: 34px;
+		    margin-right: 18px;
+		}
+	}
+	&__list-item-text {
+		color: #fff;
+		font: 26px/52px @prox-r;
+		display: block;
+		text-transform: uppercase;
+		@media @desktop {
+			font: 16px/52px @prox-r;
+		}
+	}
+}

@@ -1,0 +1,64 @@
+/*==============================
+=            FOOTER            =
+==============================*/
+.footer {
+	background: url(img/footer.jpg) no-repeat;
+	background-size: cover;
+	padding-top: 90px;
+	color: #fff;
+	&__colums {
+		display: flex;
+		flex-direction: column;
+		@media @desktop {
+			justify-content: space-between;
+			flex-direction: row;
+		}
+	}
+	&__item {
+		&:nth-child(n+2) {
+			margin-top: 50px;
+		}
+		@media @desktop {
+			&:nth-child(n+2) {
+				border-left: 1px solid rgba(255,255,255,.4);
+				padding-left: 80px;
+				margin-top: 0;
+			}
+		}
+	}
+	&__text {
+		margin-top: 19px;
+		font: 16px/29px @libre-r;
+		text-align: center;
+		@media @desktop {
+			text-align: left;
+		}
+	}
+	&__bottom {
+		margin-top: 60px;
+		border-top: 1px solid rgba(255,255,255,.4);
+		height: 61px;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+	&__copyright {
+		font: 22px @prox-r;
+		text-transform: uppercase;
+		@media @desktop {
+			font: 12px @prox-r;
+		}
+	}
+	&__hb {
+		background: url(img/hb.png) no-repeat;
+		display: block;
+		width: 80px;
+		height: 23px;
+		@media @retina {
+			background: url(img/hb@2x.png) no-repeat;
+			background-size: 80px 23px;
+		}
+	}
+}
+/*-----  End of FOOTER  ------*/
+

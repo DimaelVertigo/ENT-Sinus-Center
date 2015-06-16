@@ -1,0 +1,265 @@
+.content-6 {
+	padding: 90px 0;
+}
+.test-table {
+	counter-reset: test-table__body-item;
+	width: 100%;
+	&__item {
+		padding: 0 24px;
+		text-align: center;
+		vertical-align: middle;
+	}
+	&__head {
+		border-top: 1px solid @c-border;
+		border-bottom: 1px solid @c-border;
+
+		&-item {
+			height: 70px;
+			background-color: #fafafa;
+			font: 20px @trade;
+			color: #fff;
+			text-transform: uppercase;
+			width: 148px;
+			&:nth-child(1) {
+				color: @brand;
+				text-align: left;
+				width: auto;
+			}
+			&:nth-child(2) {
+				background: @salat;
+			}
+			&:nth-child(3) {
+				background: @green-light;
+			}
+			&:nth-child(4) {
+				background: @sky;
+			}
+			&:nth-child(5) {
+				background: @green-decore;
+			}
+			&:nth-child(6) {
+				background: @yellow-decore;
+			}
+			&:nth-child(7) {
+				background: @red;
+			}
+		}
+	}
+	&__separator {
+		height: 30px;
+	}
+	&__body {
+		.slow(1s);
+		&--visible {
+			// visible variants of test
+			border-top: 1px solid @c-border;
+			border-bottom: 1px solid @c-border;
+			transform: perspective(0) rotateX(0);
+			.test-table__body-item {
+				&:hover, &:focus {
+					.test-table__checkbox {
+						border-color: #fff;
+					}
+				}
+				&:nth-child(2) {
+					&--focus {
+						background: lighten(@salat, 25%);
+					}
+					&:hover, &:focus {
+					    background: lighten(@salat, 25%);
+					}
+					.test-table__checkbox {
+						&::after {
+							background: lighten(@salat, 25%);
+						}
+						&::before {
+							background: url(img/i5.png) no-repeat;
+							@media @retina {
+								background: url(img/i5@2x.png) no-repeat;
+								background-size: 34px 28px;
+							}
+						}
+					}
+				}
+				&:nth-child(3) {
+					&--focus {
+						background: lighten(@green-light, 25%);
+					}
+					&:hover, &:focus {
+					    background: lighten(@green-light, 25%);
+					}
+					.test-table__checkbox {
+						&::after {
+							background: lighten(@green-light, 25%);
+						}
+						&::before {
+							background: url(img/i6.png) no-repeat;
+							@media @retina {
+								background: url(img/i6@2x.png) no-repeat;
+								background-size: 34px 28px;
+							}
+						}
+					}
+				}
+				&:nth-child(4) {
+					&--focus {
+						background: lighten(@sky, 25%);
+					}
+					&:hover, &:focus {
+					    background: lighten(@sky, 25%);
+					}
+					.test-table__checkbox {
+						&::after {
+							background: lighten(@sky, 25%);
+						}
+						&::before {
+							background: url(img/i7.png) no-repeat;
+							@media @retina {
+								background: url(img/i7@2x.png) no-repeat;
+								background-size: 34px 28px;
+							}
+						}
+					}
+				}
+				&:nth-child(5) {
+					&--focus {
+						background: #ceebe9;
+					}
+					&:hover, &:focus {
+					    background: #ceebe9;
+					}
+					.test-table__checkbox {
+						&::after {
+							background: #ceebe9;
+						}
+						&::before {
+							background: url(img/i8.png) no-repeat;
+							@media @retina {
+								background: url(img/i8@2x.png) no-repeat;
+								background-size: 34px 28px;
+							}
+						}
+					}
+				}
+				&:nth-child(6) {
+					&--focus {
+						background: lighten(@yellow-decore, 20%);
+					}
+					&:hover, &:focus {
+					    background: lighten(@yellow-decore, 20%);
+					}
+					.test-table__checkbox {
+						&::after {
+							background: lighten(@yellow-decore, 20%);
+						}
+						&::before {
+							background: url(img/i9.png) no-repeat;
+							@media @retina {
+								background: url(img/i9@2x.png) no-repeat;
+								background-size: 34px 28px;
+							}
+						}
+					}
+				}
+				&:nth-child(7) {
+					&--focus {
+						background: lighten(@red, 25%);
+					}
+					&:hover, &:focus {
+					    background: lighten(@red, 25%);
+					}
+					.test-table__checkbox {
+						&::after {
+							background: lighten(@red, 25%);
+						}
+						&::before {
+							background: url(img/i10.png) no-repeat;
+							@media @retina {
+								background: url(img/i10@2x.png) no-repeat;
+								background-size: 34px 28px;
+							}
+						}
+					}
+				}
+			}
+		}
+		&--hidden {
+			// hidden variants of test
+			transform: perspective(400px) rotateX(-22deg);
+			background-color: #f7f8f9;
+			background-color: red;
+			border: none;
+		}
+		&-item {
+			font: 16px/71px @libre-r;
+			position: relative;
+			.slow(.1s);
+			&:nth-child(1) {
+				text-align: left;
+				counter-increment: test-table__body-item;
+				&::before {
+					display: block;
+					content: counter(test-table__body-item) '.';
+					float: left;
+					margin-right: 6px;
+				}
+			}
+		}
+	}
+	&__hidden-radio {
+		display: none;
+		&:checked {
+			& ~ .test-table__checkbox {
+				&::before {
+					transform: scale(1);
+				}
+				&::after {
+					display: block;
+				}
+			}
+		}
+	}
+	label {
+		display: block;
+		width: 148px;
+		height: 70px;
+		position: absolute;
+		top: 0;
+		left: 0;
+		z-index: 2;
+	}
+	.test-table__checkbox {
+		display: inline-block;
+		vertical-align: middle;
+		width: 35px;
+		height: 35px;
+		border: 2px solid #e1e1e3;
+		border-radius: 50%;
+		.slow;
+		position: relative;
+		&::before {
+			content: '';
+			display: block;
+			position: absolute;
+			bottom: 6px;
+			left: 7px;
+			width: 34px;
+			height: 28px;
+			z-index: 1;
+			.slow;
+		    transform: scale(.1);
+		}
+		&::after {
+			content: '';
+			display: block;
+			position: absolute;
+			width: 9px;
+			height: 9px;
+			background-color: #fff;
+			top: 5px;
+			right: -3px;
+			.slow(.1s);
+			display: none;
+		}
+	}
+}
