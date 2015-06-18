@@ -1138,7 +1138,7 @@ input:-moz-placeholder {
 .test-table {
   counter-reset: test-table__body-item;
   width: 100%;
-  margin-bottom: 48px;
+  margin: 70px 0 48px;
 }
 .test-table__item {
   padding: 0 24px;
