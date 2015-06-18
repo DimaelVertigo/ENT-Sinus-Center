@@ -4,6 +4,7 @@
 .test-table {
 	counter-reset: test-table__body-item;
 	width: 100%;
+	margin-bottom: 48px;
 	&__item {
 		padding: 0 24px;
 		text-align: center;
@@ -49,12 +50,15 @@
 		height: 30px;
 	}
 	&__body {
+		position: relative;
 		.slow(1s);
 		&--visible {
 			// visible variants of test
+			perspective-origin: 0%, 0%;
+			transform-origin: 50% 0%;
+			transform: perspective(1000px) rotateX(0deg) rotateY(0deg) rotateZ(0deg);
 			border-top: 1px solid @c-border;
 			border-bottom: 1px solid @c-border;
-			transform: perspective(0) rotateX(0);
 			.test-table__body-item {
 				&:hover, &:focus {
 					.test-table__checkbox {
@@ -62,9 +66,6 @@
 					}
 				}
 				&:nth-child(2) {
-					&--focus {
-						background: lighten(@salat, 25%);
-					}
 					&:hover, &:focus {
 					    background: lighten(@salat, 25%);
 					}
@@ -82,9 +83,6 @@
 					}
 				}
 				&:nth-child(3) {
-					&--focus {
-						background: lighten(@green-light, 25%);
-					}
 					&:hover, &:focus {
 					    background: lighten(@green-light, 25%);
 					}
@@ -102,9 +100,6 @@
 					}
 				}
 				&:nth-child(4) {
-					&--focus {
-						background: lighten(@sky, 25%);
-					}
 					&:hover, &:focus {
 					    background: lighten(@sky, 25%);
 					}
@@ -122,9 +117,6 @@
 					}
 				}
 				&:nth-child(5) {
-					&--focus {
-						background: #ceebe9;
-					}
 					&:hover, &:focus {
 					    background: #ceebe9;
 					}
@@ -142,9 +134,6 @@
 					}
 				}
 				&:nth-child(6) {
-					&--focus {
-						background: lighten(@yellow-decore, 20%);
-					}
 					&:hover, &:focus {
 					    background: lighten(@yellow-decore, 20%);
 					}
@@ -162,9 +151,6 @@
 					}
 				}
 				&:nth-child(7) {
-					&--focus {
-						background: lighten(@red, 25%);
-					}
 					&:hover, &:focus {
 					    background: lighten(@red, 25%);
 					}
@@ -181,18 +167,59 @@
 						}
 					}
 				}
+				&--focus {
+					&:nth-child(2) {
+						background: lighten(@salat, 25%);
+						.test-table__checkbox {
+							border-color: @salat;
+						}
+					}
+					&:nth-child(3) {
+						background: lighten(@green-light, 25%);
+						.test-table__checkbox {
+							border-color: @green-light;
+						}
+					}
+					&:nth-child(4) {
+						background: lighten(@sky, 25%);
+						.test-table__checkbox {
+							border-color: @sky;
+						}
+					}
+					&:nth-child(5) {
+						background: #ceebe9;
+						.test-table__checkbox {
+							border-color: @green-decore;
+						}
+					}
+					&:nth-child(6) {
+						background: lighten(@yellow-decore, 20%);
+						.test-table__checkbox {
+							border-color: @yellow-decore;
+						}
+					}
+					&:nth-child(7) {
+						background: lighten(@red, 25%);
+						.test-table__checkbox {
+							border-color: @red;
+						}
+					}
+				}
 			}
 		}
 		&--hidden {
 			// hidden variants of test
-			transform: perspective(400px) rotateX(-22deg);
+			transform: perspective(1000px) rotateX(-90deg) rotateY(0deg) rotateZ(0deg);
 			background-color: #f7f8f9;
-			background-color: red;
 			border: none;
+			opacity: 0;
+			position: absolute;
+			top: 0;
 		}
 		&-item {
-			font: 16px/71px @libre-r;
+			font: 16px/26px @libre-r;
 			position: relative;
+			height: 70px;
 			.slow(.1s);
 			&:nth-child(1) {
 				text-align: left;
@@ -247,7 +274,7 @@
 			height: 28px;
 			z-index: 1;
 			.slow;
-		    transform: scale(.1);
+		    transform: scale(0);
 		}
 		&::after {
 			content: '';
@@ -262,4 +289,65 @@
 			display: none;
 		}
 	}
+}
+.status-progress {
+	display: flex;
+	justify-content: space-between;
+	&__title {
+		color: #b8b8b8;
+		font: 30px @trade;
+		text-transform: uppercase;
+	}
+	.step-info,
+	.score-info {
+		width: 44%;
+	}
+	.step-i-value,
+	.score-i-value {
+		font: 30px @trade;
+		&-1 {
+			color: @green-text;
+		}
+		&-2 {
+			color: @yellow-text;
+		}
+	}
+}
+.progress-bar {
+	margin-top: 19px;
+    height: 28px;
+    position: relative;
+    background: #f6f7f9;
+    border-radius: 25px;
+    box-shadow: inset 0 -1px 1px rgba(255, 255, 255, 0.3);
+    & > span {
+        display: block;
+        height: 100%;
+        border-radius: 14px 0 0 14px;
+        background-color: #2bc253;
+        background-image: -webkit-linear-gradient(center bottom, #2bc253 37%, #54f054 69%);
+        background-image: linear-gradient(center bottom, #2bc253 37%, #54f054 69%);
+        position: relative;
+        overflow: hidden;
+    }
+
+}
+.progress-bar.step {
+    & > span {
+        background-color: #1ca7a0;
+    }
+}
+.progress-bar.score {
+    & > span {
+        background-color: #f9d467;
+    }
+}
+.white-popup {
+	position: relative;
+	background: #FFF;
+	padding: 20px;
+	width: auto;
+	max-width: 500px;
+	margin: 20px auto;
+	border-top: 3px solid @green-decore;
 }

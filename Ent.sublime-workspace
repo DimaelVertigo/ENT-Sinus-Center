@@ -4,6 +4,34 @@
 		"selected_items":
 		[
 			[
+				"border",
+				"border-radius"
+			],
+			[
+				"add",
+				"addClass	.addClass()"
+			],
+			[
+				"remo",
+				"removeClass	.removeClass()"
+			],
+			[
+				"trans",
+				"transparent"
+			],
+			[
+				"sta",
+				"static"
+			],
+			[
+				"v",
+				"visible"
+			],
+			[
+				"ov",
+				"overflow	(custom.less)"
+			],
+			[
 				"ma",
 				"margin"
 			],
@@ -64,10 +92,6 @@
 				"tablet	media-tablet"
 			],
 			[
-				"v",
-				"mvideo.png	w:214 h:87"
-			],
-			[
 				"dis",
 				"display"
 			],
@@ -106,10 +130,6 @@
 			[
 				"cle",
 				"clear"
-			],
-			[
-				"sta",
-				"stat.jpg	w:1400 h:267"
 			],
 			[
 				"db",
@@ -264,29 +284,26 @@
 	"buffers":
 	[
 		{
-			"file": "less/custom.less",
-			"settings":
-			{
-				"buffer_size": 3098,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"contents": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n	<meta charset=\"UTF-8\">\n	<title>ENT & Sinus Center</title>\n	<link rel=\"stylesheet\" href=\"style.css\"></head>\n<body>\n	<div class=\"container container--light\">\n		<div class=\"wrapper\">\n			<header class=\"header\">\n				<a href=\"#\" class=\"header__logo\"></a>\n				<nav class=\"navigation\">\n					<ul>\n						<li class=\"navigation__item\">\n							<a href=\"\" class=\"navigation__link\">benifits</a>\n						</li>\n						<li class=\"navigation__item\">\n							<a href=\"\" class=\"navigation__link\">how it work</a>\n						</li>\n						<li class=\"navigation__item\">\n							<a href=\"\" class=\"navigation__link\">estimonials</a>\n						</li>\n						<li class=\"navigation__item\">\n							<a href=\"\" class=\"navigation__link\">schedule appointment</a>\n						</li>\n						<li class=\"navigation__item\">\n							<a href=\"\" class=\"navigation__btn\">take the test</a>\n						</li>\n					</ul>\n				</nav>\n			</header>\n		</div>\n	</div>\n	<!-- container -->\n	<div class=\"container\">\n		<div class=\"jumbotron\">\n			<div class=\"wrapper jumborton__wrappper\">\n				<div class=\"jumbotron__texts\">\n					<p class=\"jumbotron__img\"></p>\n					<p class=\"jumbotron__text-1\">Balloon Sinusplasty</p>\n					<p class=\"jumbotron__text-2\">\n						Solve your long term sinus\n							problems in less than\n							45 minutes!\n					</p>\n					<p class=\"jumbotron__text-3\">\n						The breakthrough treatment for your sinusitis\n							that is safe fast and Effective!\n					</p>\n					<div class=\"line line--jumbotron\"></div>\n					<ul class=\"jumborton__list\">\n						<li class=\"jumbotron__list-item\">\n							<span class=\"jumbotron__list-item-text\">Relieve Sinus Headaches</span>\n						</li>\n						<li class=\"jumbotron__list-item\">\n							<span class=\"jumbotron__list-item-text\">Alleviate Facial Pain and Pressure</span>\n						</li>\n						<li class=\"jumbotron__list-item\">\n							<span class=\"jumbotron__list-item-text\">improved sleep and less antibiotic use</span>\n						</li>\n						<li class=\"jumbotron__list-item\">\n							<span class=\"jumbotron__list-item-text\">improve nasal congestions</span>\n						</li>\n						<li class=\"jumbotron__list-item\">\n							<span class=\"jumbotron__list-item-text\">Convenient, Comfortable Office Procedure</span>\n						</li>\n						<li class=\"jumbotron__list-item\">\n							<span class=\"jumbotron__list-item-text\">Quick Recovery Duration</span>\n						</li>\n						<li class=\"jumbotron__list-item\">\n							<span class=\"jumbotron__list-item-text\">Instant, Lasting Relief</span>\n						</li>\n					</ul>\n				</div>\n			</div>\n		</div>\n	</div>\n	<div class=\"container container--yellow\">\n		<div class=\"content content-1\">\n			<p class=\"description-btn description-btn--dark\">Check your candidacy</p>\n			<a href=\"#\" class=\"btn btn--content-1 btn--white\">take the test</a>\n		</div>\n	</div>\n	<div class=\"container\">\n		<div class=\"content content-2\">\n			<div class=\"wrapper\">\n				<h2 class=\"title title--white\">What is better and why</h2>\n				<p class=\"description description--content-2\">\n					Both are effective in delivering significant,\n							lasting improvement in sinusitis symptoms.\n				</p>\n				<div class=\"content-2__plans\">\n					<div class=\"content-2__plan content-2__plan--red\"> <i class=\"content-2__plans-icon content-2__plans-icon--red\"></i>\n						<p class=\"content-2__plans-text-1 content-2__plans-text-1--red\">Comparing Balloon<br> Sinus Dilation</p>\n						<p class=\"content-2__plans-text-2\">general anesthesia</p>\n						<ul class=\"content-2__plans-list\">\n							<li class=\"content-2__plans-list-element\">Operation room procedure</li>\n							<li class=\"content-2__plans-list-element\"><span class=\"content-2__text-3 content-2__text-3--red\">1-2</span> hours procedure</li>\n							<li class=\"content-2__plans-list-element\"><span class=\"content-2__text-3 content-2__text-3--red\">1-4</span> weeks</li>\n							<li class=\"content-2__plans-list-element\">Small balloons gently reshape anatomy</li>\n						</ul>\n					</div>\n					<div class=\"content-2__plan content-2__plan--green\"> <i class=\"content-2__plans-icon content-2__plans-icon--green\"></i>\n						<p class=\"content-2__plans-text-1 content-2__plans-text-1--green\">Comparing Balloon<br> Sinus Dilation</p>\n						<p class=\"content-2__plans-text-2\">general anesthesia</p>\n						<ul class=\"content-2__plans-list\">\n							<li class=\"content-2__plans-list-element\">Operation room procedure</li>\n							<li class=\"content-2__plans-list-element\">1-2 hours procedure</li>\n							<li class=\"content-2__plans-list-element\">1-4 weeks</li>\n							<li class=\"content-2__plans-list-element\">Small balloons gently reshape anatomy</li>\n						</ul>\n					</div>\n				</div><!-- content-2__plans -->\n				<div class=\"description description-btn description-btn--white\">\n					Check your eligibility today with our test:\n				</div>\n				<a href=\"#\" class=\"btn btn--content-2\">take the test</a>\n			</div><!-- wrapper -->\n		</div><!-- content -->\n	</div><!-- container -->\n\n	<div class=\"container\">\n		<div class=\"content content-3\">\n			<div class=\"content-3__left\">\n				<div class=\"content-3__tabs-area\">\n					<h2 class=\"title title--white content-3__title\">how it work</h2>\n					<div class=\"line line--jumbotron line--content-3\"></div>\n					<ul class=\"content-3__tabs\">\n						<li class=\"content-3__tab\">\n							<p class=\"content-3__tab-trigger\">What is Hipe Tycoon?</p>\n							<p class=\"content-3__hidden-text\">\n								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, nostrum, ullam, minus, velit itaque sint quos ipsum quibusdam id accusantium reprehenderit doloremque soluta! Earum, animi architecto similique odio? Est, sapiente.\n							</p>\n						</li>\n						<li class=\"content-3__tab\">\n							<p class=\"content-3__tab-trigger\">Inflate Balloon Across Ostium</p>\n							<p class=\"content-3__hidden-text\">\n								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, nostrum, ullam, minus, velit itaque sint quos ipsum quibusdam id accusantium reprehenderit doloremque soluta! Earum, animi architecto similique odio? Est, sapiente.\n							</p>\n						</li>\n						<li class=\"content-3__tab\">\n							<p class=\"content-3__tab-trigger\">Remove Balloon and Irrigate Sinus</p>\n							<p class=\"content-3__hidden-text\">\n								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, nostrum, ullam, minus, velit itaque sint quos ipsum quibusdam id accusantium reprehenderit doloremque soluta! Earum, animi architecto similique odio? Est, sapiente.\n							</p>\n						</li>\n						<li class=\"content-3__tab\">\n							<p class=\"content-3__tab-trigger\">Remove System</p>\n							<p class=\"content-3__hidden-text\">\n								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, nostrum, ullam, minus, velit itaque sint quos ipsum quibusdam id accusantium reprehenderit doloremque soluta! Earum, animi architecto similique odio? Est, sapiente.\n							</p>\n						</li>\n					</ul>\n				</div>\n			</div>\n			<div class=\"content-3__right\">\n				<div class=\"content-3__video\"></div>\n			</div>\n		</div>\n	</div>\n	\n	<div class=\"container container--yellow\">\n		<div class=\"content content-4\">\n			<p class=\"description-btn description-btn--dark\">Check your eligibility today with our test:</p>\n			<a href=\"#\" class=\"btn btn--content-4 btn--white\">take the test</a>\n		</div>\n	</div>\n	\n	<div class=\"container container--gray\">\n		<div class=\"content content-5\">\n			<div class=\"wrapper\">\n\n				<h2 class=\"title title--dark title--line\"><span class=\"title__hightlight title__hightlight--yellow\">390,000</span> others trust the procedure</h2>\n				<p class=\"description description--italic description--content-5\">To date, Balloon sinuplasty has helped over 390,000 sinus patients, dilating over 1.5million sinus passages. Here is what they have to soy:</p>\n				<div class=\"videos\">\n					<div class=\"videos__item\">\n						<div class=\"videos__frame\"></div>\n						<div class=\"videos__description\">\n							<span class=\"videos__description-name\">Cynthia </span><span class=\"videos__description-from\">North Carolina, USA</span>\n						</div>\n					</div>\n					<div class=\"videos__item\">\n						<div class=\"videos__frame\"></div>\n						<div class=\"videos__description\">\n							<span class=\"videos__description-name\">Karen </span><span class=\"videos__description-from\">North Carolina, USA</span>\n						</div>\n					</div>\n				</div><!-- videos -->\n				<div class=\"videos\">\n					<div class=\"videos__item\">\n						<div class=\"videos__frame\"></div>\n						<div class=\"videos__description\">\n							<span class=\"videos__description-name\">Mary Ann </span><span class=\"videos__description-from\">North Carolina, USA</span>\n						</div>\n					</div>\n					<div class=\"videos__item\">\n						<div class=\"videos__frame\"></div>\n						<div class=\"videos__description\">\n							<span class=\"videos__description-name\">Vernon </span><span class=\"videos__description-from\">North Carolina, USA</span>\n						</div>\n					</div>\n				</div><!-- videos -->\n\n			</div><!-- wrapper -->\n		</div><!-- content -->\n	</div><!-- container -->\n	\n	<div class=\"container container--white\">\n		<div class=\"content content-6\">\n			<div class=\"wrapper\">\n\n				<h2 class=\"title title--dark title--line\">Are you a candidate for the procedure?</h2>\n				<p class=\"description description--italic\"> Consider how severe the problem is when you experience it and how frequently it happens, please rate each item below on how “bad” it is by ticking the radio button that corresponds with you feel.</p>\n\n			</div><!-- wrapper -->\n		</div><!-- content -->\n	</div><!-- container -->\n\n	<div class=\"container container--gray\">\n		<div class=\"content content-7\">\n			<div class=\"wrapper\">\n				<p class=\"description description--italic\">Nothing on this site should be considered medical advice. The score evaluation is to be used as a guide and not a physician's diagnosis. Treatment to be determined by doctor upon appointment.</p>\n				<a href=\"#\" class=\"btn btn--red\">Please finish test</a>\n			</div><!-- content -->\n		</div><!-- content -->\n	</div><!-- container -->\n\n	<div class=\"container\">\n		<div class=\"content content-8\">\n			<div class=\"wrapper\">\n\n				<h2 class=\"title title--white\">Contact Our Doctors today</h2>\n				<div class=\"people\">\n					<div class=\"people__item\">\n						<div class=\"people__pic\"><img src=\"img/people1.jpg\"  alt=\"\"></div>\n						<div class=\"people__text\">\n							<div class=\"title title--small\">Dr. Henry Nguyen</div>\n							<div class=\"line line--jumbotron line--content-8\"></div>\n							<div class=\"people__info\">\n								Dr. Nguyen is board certified in Otolaryngology - Head and Neck Surgery. He has been in practice since 1999. Dr. Nguyen has as special interests in the medical and surgical treatment of patients with difficult chronic sinus diseases and nasal polyps, , head and neck surgery including thyroid and parathyroid surgery, and the medical and surgical of obstructive sleep apnea. He is committed to remain on the forefront of technological advances in endoscopic surgery to improve the safety and precision of his procedures.\n							</div>\n						</div>\n					</div>\n					<div class=\"people__item\">\n						<div class=\"people__pic\"><img src=\"img/people2.jpg\"  alt=\"\"></div>\n						<div class=\"people__text\">\n							<div class=\"title title--small\">Dr. Deborshi Roy</div>\n							<div class=\"line line--jumbotron line--content-8\"></div>\n							<div class=\"people__info\">Dr. Roy is board-certified in both Otolaryngology and Facial Plastic & Reconstructive Surgery. Dr. Roy sees all patients with ear, nose and throat disorders, including children. He has a special interest in nasal and sinus surgery, as well as facial plastic surgery. Dr. Roy uses the most innovative techniques and technology to perform procedures in the office as well as the operating room, including Balloon Sinuplasty.</div>\n						</div>\n					</div>\n				</div><!-- people -->\n				\n				<i class=\"content-8__icon\"></i>\n				<div class=\"contact-form\">\n					<form action=\"\">\n						<input type=\"text\" class=\"contact-form__input contact-form__input--text\" placeholder=\"Your name*\">		\n						<input type=\"tel\" class=\"contact-form__input contact-form__input--tel\" placeholder=\"Phone number*\">		\n						<input type=\"email\" class=\"contact-form__input contact-form__input--email\" placeholder=\"E-mail adress*\">				\n						<button type=\"submit\" class=\"btn btn--yellow btn--contact-form\">get more info</button>\n					</form>\n				</div><!-- contact-form -->\n\n			</div><!-- wrapper -->	\n		</div><!-- content -->	\n	</div><!-- container -->\n\n	<footer class=\"footer\">\n		<div class=\"wrapper\">\n			<div class=\"footer__colums\">\n				<div class=\"footer__item\">\n					<div class=\"title title--small\">ENT & Sainus Center</div>\n					<div class=\"line line--content-8\"></div>\n					<p class=\"footer__text\">\n						8241 Rochester Avenue, Suite 130 <br>\n						Rancho Cucamonga, CA 91730-0713 <br>\n						<span class=\"yellow\">(909) 466-8400</span> <br>\n						<span class=\"yellow\">(909) 466-8400</span> (fax) <br>\n						<a href=\"http://www.entsinus.net/\" class=\"link\" target=\"_blank\">www.entsinuscenter.com</a>\n					</p>	\n				</div>\n				<div class=\"footer__item\">\n					<div class=\"title title--small\">ENT & Sainus Center</div>\n					<div class=\"line line--content-8\"></div>\n					<p class=\"footer__text\">\n						8241 Rochester Avenue, Suite 130 <br>\n						Rancho Cucamonga, CA 91730-0713 <br>\n						<span class=\"yellow\">(909) 466-8400</span> <br>\n						<span class=\"yellow\">(909) 466-8400</span> (fax) <br>\n						<a href=\"http://www.entsinus.net/\" class=\"link\" target=\"_blank\">www.entsinuscenter.com</a>\n					</p>	\n				</div>\n				<div class=\"footer__item\">\n					<div class=\"title title--small\">ENT & Sainus Center</div>\n					<div class=\"line line--content-8\"></div>\n					<p class=\"footer__text\">\n						Monday - Friday: <span class=\"yellow\">8:00 AM - 5:00 PM</span><br>\n						Saturday - Sunday: <span class=\"yellow\">Closed</span>\n					</p>	\n				</div>\n			</div>\n			<div class=\"footer__bottom\">\n				<p class=\"footer__copyright\"></p>\n				heartbeat.ua\n			</div>\n		</div>\n	</footer>\n\n	<script src=\"http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.js\"></script>\n	<script src=\"js/scripts.js\"></script>\n\n</body>\n</html>\n",
 			"file": "index.html",
-			"file_size": 13943,
-			"file_write_time": 130785949980000000,
 			"settings":
 			{
-				"buffer_size": 14036,
+				"buffer_size": 52163,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "less/footer.less",
+			"file": "js/scripts.js",
 			"settings":
 			{
-				"buffer_size": 506,
+				"buffer_size": 5679,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "less/content-6.less",
+			"settings":
+			{
+				"buffer_size": 6989,
 				"line_ending": "Unix"
 			}
 		}
@@ -298,10 +315,22 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 147.0,
-		"last_filter": "",
+		"height": 392.0,
+		"last_filter": "less",
 		"selected_items":
 		[
+			[
+				"less",
+				"Set Syntax: LESS"
+			],
+			[
+				"css",
+				"Snippet: css-before"
+			],
+			[
+				"exp",
+				"Format CSS: Expanded"
+			],
 			[
 				"hype",
 				"Hyperlink Helper: Lookup with Google & Link"
@@ -313,10 +342,6 @@
 			[
 				"comp",
 				"Format CSS: Compact"
-			],
-			[
-				"exp",
-				"Format CSS: Expanded"
 			],
 			[
 				"js",
@@ -431,16 +456,8 @@
 				"Format CSS: Compact (Break Selectors)"
 			],
 			[
-				"css",
-				"Snippet: css-before"
-			],
-			[
 				"hy",
 				"Hyperlink Helper: Lookup with Google & Link"
-			],
-			[
-				"less",
-				"Set Syntax: LESS"
 			],
 			[
 				"i",
@@ -503,7 +520,7 @@
 				"Set Syntax: HTML"
 			]
 		],
-		"width": 575.0
+		"width": 548.0
 	},
 	"console":
 	{
@@ -529,19 +546,30 @@
 	],
 	"file_history":
 	[
-		"/Applications/MAMP/htdocs/Ent/less/content-8.less",
 		"/Applications/MAMP/htdocs/Ent/js/scripts.js",
-		"/Users/dorosh/Library/Application Support/com.evernote.Evernote/accounts/www.evernote.com/27172961/external-edits/0EC35CBC-435C-4963-94F7-C432C9F3BCA5/validation-form.js",
-		"/Applications/MAMP/htdocs/Ent/less/content-7.less",
 		"/Applications/MAMP/htdocs/Ent/less/content-6.less",
-		"/Users/dorosh/Library/Application Support/Sublime Text 3/Packages/User/Emmet.sublime-settings",
-		"/Applications/MAMP/htdocs/Ent/index.html",
-		"/Applications/MAMP/htdocs/Ent/less/main.less",
-		"/Applications/MAMP/htdocs/Ent/less/content-5.less",
-		"/Applications/MAMP/htdocs/Ent/less/content-4.less",
-		"/Applications/MAMP/htdocs/Ent/less/content-1.less",
-		"/Applications/MAMP/htdocs/Ent/less/content-3.less",
+		"/Applications/MAMP/htdocs/Ent/less/variables.less",
 		"/Applications/MAMP/htdocs/Ent/style.css",
+		"/Applications/MAMP/htdocs/Ent/index.html",
+		"/Users/dorosh/Desktop/ENT/index.html",
+		"/Applications/MAMP/htdocs/Ent/less/custom.less",
+		"/Applications/MAMP/htdocs/Ent/less/content-2.less",
+		"/Applications/MAMP/htdocs/Ent/less/jumbotron.less",
+		"/Users/dorosh/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/dorosh/Dropbox/Klim/Sublime Text 2/Settings/License.sublime_license",
+		"/Applications/MAMP/htdocs/Ent/less/header.less",
+		"/Applications/MAMP/htdocs/Ent/less/footer.less",
+		"/Applications/MAMP/htdocs/Ent/less/content-8.less",
+		"/Applications/MAMP/htdocs/Ent/less/content-4.less",
+		"/Applications/MAMP/htdocs/Ent/less/content-7.less",
+		"/Applications/MAMP/htdocs/Ent/less/content-5.less",
+		"/Applications/MAMP/htdocs/Ent/less/content-3.less",
+		"/Users/dorosh/Library/Application Support/com.evernote.Evernote/accounts/www.evernote.com/27172961/external-edits/399858D9-7F01-4D75-A4BF-09603B407792/scroll.js",
+		"/Users/dorosh/Library/Application Support/com.evernote.Evernote/accounts/www.evernote.com/27172961/external-edits/90D186DB-E5EE-4DEE-97A8-610326882D2C/scroll.tpl",
+		"/Users/dorosh/Library/Application Support/com.evernote.Evernote/accounts/www.evernote.com/27172961/external-edits/0EC35CBC-435C-4963-94F7-C432C9F3BCA5/validation-form.js",
+		"/Users/dorosh/Library/Application Support/Sublime Text 3/Packages/User/Emmet.sublime-settings",
+		"/Applications/MAMP/htdocs/Ent/less/main.less",
+		"/Applications/MAMP/htdocs/Ent/less/content-1.less",
 		"/Users/dorosh/Library/Application Support/com.evernote.Evernote/accounts/www.evernote.com/27172961/external-edits/7B9DE260-F374-47E7-BC6D-AD60F2F22541/scripts.js",
 		"/Users/dorosh/Library/Application Support/com.evernote.Evernote/accounts/www.evernote.com/27172961/external-edits/929C644A-3E46-4CFF-A282-4755FCF8D5AD/faq.less",
 		"/Users/dorosh/Library/Application Support/com.evernote.Evernote/accounts/www.evernote.com/27172961/external-edits/78E20AC9-2A7D-4A9A-8727-CD0D87DAB6B1/scripts.js",
@@ -555,14 +583,9 @@
 		"/Users/dorosh/Library/Application Support/com.evernote.Evernote/accounts/www.evernote.com/27172961/external-edits/067AF348-60D0-4DB0-AB78-A146614C7C31/examle.js",
 		"/var/folders/cz/868h90kn16j44rd5815021xr0000gn/T/com.evernote.Evernote/WebKitDnD.fhMGgP/faq.tpl",
 		"/Applications/MAMP/htdocs/opesvista.com/tmpl/deposit_list.tpl",
-		"/Applications/MAMP/htdocs/Ent/less/footer.less",
-		"/Applications/MAMP/htdocs/Ent/less/content-2.less",
-		"/Applications/MAMP/htdocs/Ent/less/jumbotron.less",
 		"/Applications/MAMP/htdocs/Ent/less/fonts.less",
-		"/Applications/MAMP/htdocs/Ent/less/variables.less",
 		"/private/var/folders/cz/868h90kn16j44rd5815021xr0000gn/T/.entp.L5Joqz/0/stylesheet.css",
 		"/Users/dorosh/Library/Application Support/Sublime Text 3/Packages/User/css-clearfix-container.sublime-snippet",
-		"/Applications/MAMP/htdocs/Ent/less/header.less",
 		"/private/var/folders/cz/868h90kn16j44rd5815021xr0000gn/T/.entp.HugGIY/0/stylesheet.css",
 		"/private/var/folders/cz/868h90kn16j44rd5815021xr0000gn/T/.entp.DCrKS4/0/stylesheet.css",
 		"/private/var/folders/cz/868h90kn16j44rd5815021xr0000gn/T/.entp.WDMelY/0/stylesheet.css",
@@ -601,7 +624,6 @@
 		"/Applications/MAMP/htdocs/Vost/less/main.less",
 		"/Users/dorosh/Library/Application Support/com.evernote.Evernote/accounts/www.evernote.com/27172961/external-edits/ECAF5684-636A-407A-A9AB-1F31E8E80512/example.css",
 		"/Applications/MAMP/htdocs/Vost/less/content-block-8",
-		"/Users/dorosh/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
 		"/Users/dorosh/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
 		"/Users/dorosh/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
 		"/Applications/MAMP/htdocs/Vost/vost.sublime-project",
@@ -651,12 +673,7 @@
 		"/Users/dorosh/Library/Application Support/com.evernote.Evernote/accounts/www.evernote.com/27172961/external-edits/73CE4EC9-2EF5-4DB8-A7AF-14F68F91AFB6/scroll.js",
 		"/Applications/MAMP/htdocs/opesvista.com/less/footer.less",
 		"/Applications/MAMP/htdocs/opesvista.com/tmpl/support.tpl",
-		"/Applications/MAMP/htdocs/opesvista.com/less/support.less",
-		"/Applications/MAMP/htdocs/opesvista.com/less/inners.less",
-		"/Applications/MAMP/htdocs/opesvista.com/tmpl/custom/aboutus.tpl",
-		"/Users/dorosh/Library/Application Support/com.evernote.Evernote/accounts/www.evernote.com/27172961/external-edits/02B0618E-EE42-4E37-AA5A-361CA3ADDB6C/Текст поверх линии.css",
-		"/Applications/MAMP/htdocs/opesvista.com/tmpl/header2.tpl",
-		"/Applications/MAMP/htdocs/opesvista.com/tmpl/faq.tpl"
+		"/Applications/MAMP/htdocs/opesvista.com/less/support.less"
 	],
 	"find":
 	{
@@ -678,6 +695,81 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"tq-4",
+			"checkbox-4",
+			"tq-4",
+			"checkbox-4",
+			"checkbox-4-1",
+			"tq-4",
+			"checkbox-4",
+			"checkbox-4-1",
+			"tq-4",
+			"checkbox-4",
+			"tq-4",
+			"checkbox-4",
+			"tq-4",
+			"checkbox-4",
+			"tq-4",
+			"checkbox-4",
+			"tq-4",
+			"checkbox-4",
+			"tq-4",
+			"checkbox-4",
+			"tq-4",
+			"checkbox-4",
+			"tq-4",
+			"checkbox-4",
+			"tq-4",
+			"checkbox-4",
+			"tq-4",
+			"checkbox-4",
+			"tq-4",
+			"tq-5",
+			"checkbox-5",
+			"checkbox-5-1",
+			"checkbox-4",
+			"tq-4",
+			"checkbox-4",
+			"checkbox-4-1",
+			"tq-4",
+			"4",
+			"checkbox-4",
+			" box-6",
+			"step-info",
+			"status-progress",
+			"js-show-test-result",
+			"&--focus {\n						\n					}",
+			"checkbox-3",
+			"checkbox-2",
+			"2-5",
+			"checkbox-2-4",
+			"2-3",
+			"2",
+			"checkbox-1-2",
+			"checkbox-1-1",
+			"-1",
+			"checkbox-1-1",
+			"1-1",
+			"table",
+			"test-table__hidden",
+			"@media @retina {",
+			"background: url(img/i5.png) no-repeat;",
+			"&::before",
+			"pages",
+			".test-table__checkbox::after { \n				    	}",
+			"test-table__checkbox",
+			"33",
+			"span",
+			"test-table__hidden",
+			"checkbox",
+			"type=\"checkbox",
+			"span class=\"checkbox\"",
+			"checkbox",
+			"test-table__item",
+			"calc(823px - 20%)",
+			"navigation__link",
+			"plans-",
+			"hidden",
 			"(909) 466-8400",
 			"__name",
 			"#fff;",
@@ -730,82 +822,7 @@
 			"rotate(-30deg)",
 			"transform: rotate(-30deg)",
 			"40",
-			"opacity",
-			"fadeIn",
-			"lines",
-			"fadeIn",
-			"logo3",
-			"100",
-			"light.png",
-			"slide__item",
-			"\n					only screen and (-webkit-min-device-pixel-ratio: 2),\n					only screen and (   min--moz-device-pixel-ratio: 2),\n					only screen and (     -o-min-device-pixel-ratio: 2/1),\n					only screen and (        min-device-pixel-ratio: 2),\n					only screen and (                min-resolution: 192dpi),\n					only screen and (                min-resolution: 2dppx)",
-			"8",
-			"\n			only screen and (-webkit-min-device-pixel-ratio: 2),\n			only screen and (   min--moz-device-pixel-ratio: 2),\n			only screen and (     -o-min-device-pixel-ratio: 2/1),\n			only screen and (        min-device-pixel-ratio: 2),\n			only screen and (                min-resolution: 192dpi),\n			only screen and (                min-resolution: 2dppx)",
-			"15",
-			"11",
-			"32",
-			"500",
-			"150",
-			"63",
-			"padding",
-			"center",
-			"space-around",
-			"center",
-			"justify-content",
-			"105",
-			"font: 16px @ff-r;",
-			"16",
-			"/23px",
-			"content-block-1-list-item",
-			"max-width: 470",
-			"content-block-1-list-item",
-			"only screen and (-webkit-min-device-pixel-ratio: 2),\n		only screen and (   min--moz-device-pixel-ratio: 2),\n		only screen and (     -o-min-device-pixel-ratio: 2/1),\n		only screen and (        min-device-pixel-ratio: 2),\n		only screen and (                min-resolution: 192dpi),\n		only screen and (                min-resolution: 2dppx)",
-			"img/point@2x.png",
-			"content-block-1-list-item",
-			"content-block-4-list-1",
-			"max",
-			"style",
-			"2",
-			"297",
-			"content-block-9__",
-			"12",
-			"29",
-			"div",
-			"red",
-			"div",
-			"colums",
-			"870",
-			"nav",
-			"plans_slider",
-			"10",
-			"contact-form-group",
-			"__",
-			"contact-form-group",
-			"height",
-			"png",
-			" no-repeat 11px center",
-			"no-repeat",
-			"contact-form-group__wrapper",
-			"input__",
-			"for=\"\"",
-			"div",
-			"50",
-			"407",
-			"tri",
-			"cb",
-			"content-block",
-			"-2",
-			"div",
-			"cb-4-list-1__item",
-			"list",
-			"personal",
-			"cb-2",
-			"features",
-			"div",
-			"description",
-			"perso",
-			"\n							Размещайте рекламу на рекламных плоскостях в популярных торговых точках.\n						",
-			"Охват"
+			"opacity"
 		],
 		"highlight": false,
 		"in_selection": false,
@@ -832,60 +849,24 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "less/custom.less",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3098,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3054,
-								3054
-							]
-						],
-						"settings":
-						{
-							"bs_sintax": "less",
-							"buffer_scroll_name": "3e2525ac",
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai Custom.tmtheme",
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"spell_check": "true",
-							"synced": false,
-							"syntax": "Packages/LESS/LESS.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 2517.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
 					"file": "index.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 14036,
+						"buffer_size": 52163,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								13863,
-								13851
+								51286,
+								51286
 							]
 						],
 						"settings":
@@ -902,51 +883,82 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 6747.0,
+						"translation.y": 18195.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
 					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 0,
-			"sheets":
-			[
+				},
 				{
-					"buffer": 2,
-					"file": "less/footer.less",
+					"buffer": 1,
+					"file": "js/scripts.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 506,
+						"buffer_size": 5679,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								470,
-								470
+								5155,
+								5155
 							]
 						],
 						"settings":
 						{
-							"bs_sintax": "less",
-							"buffer_scroll_name": "dd7ae946",
+							"bs_sintax": "javascript",
+							"buffer_scroll_name": "c9fb56ac",
 							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai Custom.tmtheme",
 							"incomplete_sync": null,
 							"remote_loading": false,
 							"spell_check": "true",
 							"synced": false,
-							"syntax": "Packages/LESS/LESS.tmLanguage"
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2517.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "less/content-6.less",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6989,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1198,
+								1198
+							]
+						],
+						"settings":
+						{
+							"bs_sintax": "less",
+							"buffer_scroll_name": "0b4f80e7",
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai Custom.tmtheme",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"spell_check": "true",
+							"synced": false,
+							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
@@ -969,18 +981,11 @@
 				0,
 				1,
 				1
-			],
-			[
-				1,
-				0,
-				2,
-				1
 			]
 		],
 		"cols":
 		[
 			0.0,
-			0.5,
 			1.0
 		],
 		"rows":
@@ -1012,40 +1017,88 @@
 		"selected_items":
 		[
 			[
-				"8",
-				"less/content-8.less"
-			],
-			[
-				"foo",
-				"less/footer.less"
-			],
-			[
 				"sc",
 				"js/scripts.js"
-			],
-			[
-				"in",
-				"index.html"
-			],
-			[
-				"ma",
-				"less/main.less"
-			],
-			[
-				"7",
-				"less/content-7.less"
-			],
-			[
-				"m",
-				"less/main.less"
 			],
 			[
 				"6",
 				"less/content-6.less"
 			],
 			[
+				"s",
+				"js/scripts.js"
+			],
+			[
+				"va",
+				"less/variables.less"
+			],
+			[
+				"sy",
+				"style.css"
+			],
+			[
+				"in",
+				"index.html"
+			],
+			[
+				"sty",
+				"style.css"
+			],
+			[
+				"2",
+				"less/content-2.less"
+			],
+			[
+				"j",
+				"less/jumbotron.less"
+			],
+			[
+				"he",
+				"less/header.less"
+			],
+			[
+				"4",
+				"less/content-4.less"
+			],
+			[
+				"8",
+				"less/content-8.less"
+			],
+			[
+				"hea",
+				"less/header.less"
+			],
+			[
+				"foo",
+				"less/footer.less"
+			],
+			[
+				"7",
+				"less/content-7.less"
+			],
+			[
 				"5",
 				"less/content-5.less"
+			],
+			[
+				"3",
+				"less/content-3.less"
+			],
+			[
+				"ju",
+				"less/jumbotron.less"
+			],
+			[
+				"jum",
+				"less/jumbotron.less"
+			],
+			[
+				"ma",
+				"less/main.less"
+			],
+			[
+				"m",
+				"less/main.less"
 			],
 			[
 				"cu",
@@ -1056,52 +1109,20 @@
 				"less/content-1.less"
 			],
 			[
-				"4",
-				"less/content-4.less"
-			],
-			[
-				"sty",
-				"style.css"
-			],
-			[
 				"st",
 				"style.css"
-			],
-			[
-				"3",
-				"less/content-3.less"
-			],
-			[
-				"2",
-				"less/content-2.less"
-			],
-			[
-				"va",
-				"less/variables.less"
 			],
 			[
 				"f",
 				"less/fonts.less"
 			],
 			[
-				"ju",
-				"less/jumbotron.less"
-			],
-			[
 				"v",
 				"less/variables.less"
 			],
 			[
-				"he",
-				"less/header.less"
-			],
-			[
 				"fon",
 				"less/fonts.less"
-			],
-			[
-				"j",
-				"less/jumbotron.less"
 			],
 			[
 				"fo",
@@ -1130,10 +1151,6 @@
 			[
 				"ih",
 				"index.html"
-			],
-			[
-				"hea",
-				"less/header.less"
 			],
 			[
 				"co",
@@ -1190,10 +1207,6 @@
 			[
 				"news",
 				"tmpl/news_box.tpl"
-			],
-			[
-				"s",
-				"less/style.less"
 			],
 			[
 				"ru/s",
@@ -1522,6 +1535,10 @@
 		[
 			[
 				"",
+				"/Applications/MAMP/htdocs/Klim/klim.sublime-project"
+			],
+			[
+				"v",
 				"/Applications/MAMP/htdocs/Vost/vost.sublime-project"
 			]
 		],
@@ -1543,7 +1560,7 @@
 	"show_minimap": false,
 	"show_open_files": true,
 	"show_tabs": true,
-	"side_bar_visible": false,
+	"side_bar_visible": true,
 	"side_bar_width": 197.0,
 	"status_bar_visible": true,
 	"template_settings":
