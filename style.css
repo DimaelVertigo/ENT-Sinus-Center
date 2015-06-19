@@ -1482,6 +1482,7 @@ input:-moz-placeholder {
   color: #f7e042;
 }
 .progress-bar {
+  overflow: hidden;
   margin-top: 19px;
   height: 28px;
   position: relative;
@@ -1498,6 +1499,8 @@ input:-moz-placeholder {
   background-image: linear-gradient(center bottom, #2bc253 37%, #54f054 69%);
   position: relative;
   overflow: hidden;
+  -webkit-transition: all 0.2s ease-in-out;
+          transition: all 0.2s ease-in-out;
 }
 .progress-bar.step > span {
   background-color: #1ca7a0;

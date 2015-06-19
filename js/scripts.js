@@ -66,7 +66,7 @@ $(document).ready(function() {
 	validation.init();
 
 	// Anchors 
-	$("a.navigation__link").click(function(e) {
+	$("a.anchor").click(function(e) {
 		var elementClick = $(this).attr("href");
 		var destination = $(elementClick).offset().top;
 		$('html, body').animate({
@@ -80,15 +80,15 @@ $(document).ready(function() {
 		$(this).addClass('test-table__body-item--focus').siblings().removeClass('test-table__body-item--focus');
 	});
 
+	
 	var testENT = (function() {
-
 		var resultPopup = $('#result-popup'),
 			scoreResult = resultPopup.find('.rs-sum'),
 			msgResult = resultPopup.find('.result-msg'),
 			tableEnt = $('.test-table'),
 			btnShowResult = tableEnt.next().find('.js-show-test-result'),
 			numberQuestion = $('.test-question'),
-
+			
 			// Pregress bar
 			contProgressBox = $('.status-progress'),
 			stepBox = contProgressBox.find('.step-i-value'),
@@ -98,7 +98,6 @@ $(document).ready(function() {
 			scoreValue = scoreBox.children('.value'),
 			scoreBar = scoreBox.next('.progress-bar').children('span'),
 
-
 			// Test data
 			score = [],
 			questSumm = null,
@@ -106,6 +105,7 @@ $(document).ready(function() {
 			resultModerate = 'An appointment with a specialist or your PCP is recommended and/or prescription medicine can be taken to treat symptoms.',
 			resultModerateSevere = 'An appointment with a specialist or your PCP is recommended and/or prescription medicine can be taken to treat symptoms.',
 			resultAsBadAsItCanBe = 'And appointment with a specialist is recommended, treatment to be determined by doctor. Possible surgical candidate.';
+		
 		return {
 			init: function() {
 				_this = this;
@@ -115,67 +115,62 @@ $(document).ready(function() {
 				tableEnt.on('change', '.test-table__hidden-radio', _this.saveAnswer);
 			},
 			saveAnswer: function() {
-				var _this = $(this),
-					value = parseInt(_this.attr('value')),
-					tableQuest = _this.closest('.test-table__body'),
-					activeTableQuest = tableQuest.parent().children(':visible').length,
+				var that = $(this),
+					value = parseInt(that.attr('value')),
+					tableQuest = that.closest('.test-table__body'),
 					questNumber = tableQuest.data('quest-number');
 
 				score[questNumber] = value;
-				questSumm = activeTableQuest;
-				testENT.showQuestion(tableQuest);
-				console.log(score)
+				questSumm = questNumber +1;
+				_this.showQuestion(tableQuest);
 			},
 			showQuestion: function(elem) {
 				var nextQuestion = elem.next();
 
 				if (nextQuestion.length) {
-					nextQuestion.removeClass('test-table__body--hidden').addClass('test-table__body--visible');
+					nextQuestion.removeClass('test-table__body--hidden')
+								.addClass('test-table__body--visible');
 				} else {
-					_this.detectResult();
+					_this.detectResult(score);
 				}
 				_this.stepBarCalc(questSumm);
 				_this.scoreBarCalc(score);
 			},
 			sumResult: function(scoreArr) {
 				var sum = null;
-				for (i = 0; i < scoreArr.length; i++) {
+				for (i=0; i<scoreArr.length; i++) {
 					sum += scoreArr[i];
 				}
 				return sum;
 			},
-			stepBarCalc: function(qSumm) {
-				var barCalculate = (qSumm / 20) * 100;
-				stepValue.text(qSumm);
+			stepBarCalc: function(stepSumm) {
+				var barCalculate = (stepSumm / 20) * 100;
+				stepValue.text(stepSumm);
 				stepBar.css('width', barCalculate + '%');
 			},
 			scoreBarCalc: function(scoreArr) {
 				var score = _this.sumResult(scoreArr);
-				barCalculate = (score / 100) * 100;
+					barCalculate = (score / 100) * 100;
 				scoreValue.text(score);
 				scoreBar.css('width', barCalculate + '%');
 			},
-			detectResult: function() {
+			detectResult: function(score) {
 				var result = _this.sumResult(score);
 
-				console.log(result)
 				if (result >= 0 && result <= 10) {
 					_this.showResult(resultNoProblem);
-				} else
-				if (result >= 11 && result <= 40) {
+				} else if (result >= 11 && result <= 40) {
 					_this.showResult(resultModerate);
-				} else
-				if (result >= 41 && result <= 69) {
+				} else if (result >= 41 && result <= 69) {
 					_this.showResult(resultModerateSevere);
-				} else
-				if (result >= 70 && result <= 100) {
+				} else if (result >= 70 && result <= 100) {
 					_this.showResult(resultAsBadAsItCanBe);
 				}
 			},
 			showResult: function(msg) {
 				btnShowResult.text('Show result');
 				$('.js-show-test-result').magnificPopup({
-					type: 'inline',
+					type:'inline',
 					callbacks: {
 						open: function() {
 							scoreResult.text(_this.sumResult(score));
@@ -188,4 +183,5 @@ $(document).ready(function() {
 	}());
 
 	testENT.init();
+
 });
